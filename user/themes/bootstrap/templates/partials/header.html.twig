@@ -1,0 +1,40 @@
+<nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">       
+    <div class="container">
+        <div class="navbar-collapse collapse">
+{#             <div class="zoom">
+                <button class="zoom-plus">+</button>
+                <button class="zoom-moins">-</button>
+            </div> #}
+            <ul class="nav navbar-nav navbar-right">
+              {% for page in pages.children.visible %}
+                {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+                <li class="{{ current_page }}">
+                  <a href="{{ page.url }}">{{ page.menu }}</a>
+                  {% if page.children %}
+                      <ul class="submenu">
+                      {% for child in page.children %}
+                          {% if child.visible %}
+                            <li class="{{ current_page }}"><a data-title="#{{ child.menu |replace({' ': '',})}}">{{ child.menu }}</a></li>
+                          {% endif %}
+                      {% endfor %}
+                      </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+        </div>
+        <div class="title">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="title-big" href="{{ base_url == '' ? '/' : base_url }}">
+                <h2>{{ site.title }}</h2>
+                <h1>{{ page.header.year }}</h1>
+                <h3>{{ page.header.date }}</h3>
+            </a>
+        </div>
+    </div>
+</nav>

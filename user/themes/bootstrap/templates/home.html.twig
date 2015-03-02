@@ -1,0 +1,31 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+	<div class="panzoom">
+		{# include the header + navigation #}
+        {% include 'partials/header.html.twig' %}
+        <div class="carte-container">
+        	<div class="cartes">
+        		<img src="{{ theme_url }}/images/carte-usg.svg" width="7200" height="4500">
+	    		<img class="carte-expo" src="{{ theme_url }}/images/carte2-usg.svg" width="7200" height="4500">
+        	</div>
+        	<div class="img-expo">
+        		{% for page in pages.children.visible %}
+        			{% if page.children %}
+	        			{% for child in page.children %}
+	        				{% if child.media %}
+		        				<div id="{{ child.menu |replace({' ': '',})}}">
+		        					<a href="{{child.url}}" alt="{{child.title}}">
+			        					<h3>{{child.title}}</h3>
+			        					<img src="{{child.media["image.png"]}}">
+			        				</a>
+		        				</div>
+	        				{% endif %}
+	        			{% endfor %}
+	        		{% endif %}
+        		{% endfor %}
+        	</div>
+    	</div>
+  	</div>
+    {{ page.content }}
+{% endblock %}
