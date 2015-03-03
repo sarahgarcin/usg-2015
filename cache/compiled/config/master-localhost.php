@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\Config',
-    'timestamp' => 1425034614,
-    'checksum' => '881fb67b6d43a49f40182cec75b6f3e7',
+    'timestamp' => 1425317379,
+    'checksum' => '86cd8f4c1b6b1c7399434f46e7be22e2',
     'data' => [
         0 => 1,
         'streams' => [
@@ -272,7 +272,7 @@ return [
                 'alias' => '/home'
             ],
             'pages' => [
-                'theme' => 'bootstrap',
+                'theme' => 'usg',
                 'order' => [
                     'by' => 'defaults',
                     'dir' => 'asc'

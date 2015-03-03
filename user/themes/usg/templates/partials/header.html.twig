@@ -1,0 +1,36 @@
+<nav class="navbar" role="navigation">       
+    <div class="container">
+        <div class="navbar-collapse">
+<!--             <div class="zoom">
+              <button class="zoom-in">+</button>
+              <button class="zoom-out">-</button>
+              <input type="range" class="zoom-range">
+              <button class="reset">Reset</button>
+            </div> -->
+            <ul class="nav navbar-nav navbar-right">
+              {% for page in pages.children.visible %}
+                {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+                <li class="{{ current_page }}">
+                  <a href="{{ page.url }}">{{ page.menu }}</a>
+                  {% if page.children %}
+                      <ul class="submenu">
+                      {% for child in page.children %}
+                          {% if child.visible %}
+                            <li class="{{ current_page }} {{child.title |replace({' ': '',})}}"><a href="#">{{ child.menu }}</a></li>
+                          {% endif %}
+                      {% endfor %}
+                      </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+        </div>
+        <div class="title">
+          <a class="title-big" href="{{ base_url == '' ? '/' : base_url }}">
+              <h2>{{ site.title }}</h2>
+              <h1>{{ page.header.year }}</h1>
+              <h3>{{ page.header.date }}</h3>
+          </a>
+        </div>
+    </div>
+</nav>

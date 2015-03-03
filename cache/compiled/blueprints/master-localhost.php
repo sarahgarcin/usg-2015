@@ -1,34 +1,34 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\Config',
-    'checksum' => '6c35cd58002913a011ab8db1f1925699:c09d2693babcefefda343e0c3c32c3b2',
+    'checksum' => 'cab1116fd9318900d461865ef4e04159:001bc6dcb7f816b17ef8102715bc38bb',
     'files' => [
         'user/plugins' => [
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1424361858
+                'modified' => 1425289281
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1424361858
+                'modified' => 1425289281
             ]
         ],
         'system/blueprints/config' => [
-            'media' => [
-                'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1424361854
-            ],
-            'site' => [
-                'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1424361854
+            'system' => [
+                'file' => 'system/blueprints/config/system.yaml',
+                'modified' => 1425289281
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1424361854
+                'modified' => 1425289281
             ],
-            'system' => [
-                'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1424361854
+            'media' => [
+                'file' => 'system/blueprints/config/media.yaml',
+                'modified' => 1425289281
+            ],
+            'site' => [
+                'file' => 'system/blueprints/config/site.yaml',
+                'modified' => 1425289281
             ]
         ]
     ],
@@ -61,69 +61,6 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'plugins.problems.enabled'
-            ],
-            'site.title' => [
-                'type' => 'text',
-                'label' => 'Site Title',
-                'size' => 'large',
-                'placeholder' => 'Site wide title',
-                'help' => 'Default title for your site',
-                'name' => 'site.title'
-            ],
-            'site.author.name' => [
-                'type' => 'text',
-                'size' => 'large',
-                'label' => 'Default Author',
-                'name' => 'site.author.name'
-            ],
-            'site.author.email' => [
-                'type' => 'text',
-                'size' => 'large',
-                'label' => 'Default Email',
-                'name' => 'site.author.email'
-            ],
-            'site.taxonomies' => [
-                'type' => 'text',
-                'size' => 'large',
-                'label' => 'Taxonomy Types',
-                'classes' => 'fancy',
-                'validate' => [
-                    'type' => 'commalist'
-                ],
-                'name' => 'site.taxonomies'
-            ],
-            'site.metadata' => [
-                'type' => 'array',
-                'label' => 'Metadata',
-                'placeholder_key' => 'Name',
-                'placeholder_value' => 'Content',
-                'name' => 'site.metadata'
-            ],
-            'site.blog.route' => [
-                'type' => 'text',
-                'size' => 'large',
-                'label' => 'Blog URL',
-                'name' => 'site.blog.route'
-            ],
-            'site.summary.size' => [
-                'type' => 'text',
-                'size' => 'x-small',
-                'label' => 'Summary Size',
-                'validate' => NULL,
-                'min' => 0,
-                'max' => 65536,
-                'name' => 'site.summary.size'
-            ],
-            'site.routes' => [
-                'type' => 'array',
-                'label' => 'Custom',
-                'placeholder_key' => '/your/alias',
-                'placeholder_value' => '/your/route',
-                'name' => 'site.routes'
-            ],
-            'streams.schemes.xxx' => [
-                'type' => 'array',
-                'name' => 'streams.schemes.xxx'
             ],
             'system.home.alias' => [
                 'type' => 'pages',
@@ -530,6 +467,69 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'system.debugger.shutdown.close_connection'
+            ],
+            'streams.schemes.xxx' => [
+                'type' => 'array',
+                'name' => 'streams.schemes.xxx'
+            ],
+            'site.title' => [
+                'type' => 'text',
+                'label' => 'Site Title',
+                'size' => 'large',
+                'placeholder' => 'Site wide title',
+                'help' => 'Default title for your site',
+                'name' => 'site.title'
+            ],
+            'site.author.name' => [
+                'type' => 'text',
+                'size' => 'large',
+                'label' => 'Default Author',
+                'name' => 'site.author.name'
+            ],
+            'site.author.email' => [
+                'type' => 'text',
+                'size' => 'large',
+                'label' => 'Default Email',
+                'name' => 'site.author.email'
+            ],
+            'site.taxonomies' => [
+                'type' => 'text',
+                'size' => 'large',
+                'label' => 'Taxonomy Types',
+                'classes' => 'fancy',
+                'validate' => [
+                    'type' => 'commalist'
+                ],
+                'name' => 'site.taxonomies'
+            ],
+            'site.metadata' => [
+                'type' => 'array',
+                'label' => 'Metadata',
+                'placeholder_key' => 'Name',
+                'placeholder_value' => 'Content',
+                'name' => 'site.metadata'
+            ],
+            'site.blog.route' => [
+                'type' => 'text',
+                'size' => 'large',
+                'label' => 'Blog URL',
+                'name' => 'site.blog.route'
+            ],
+            'site.summary.size' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'Summary Size',
+                'validate' => NULL,
+                'min' => 0,
+                'max' => 65536,
+                'name' => 'site.summary.size'
+            ],
+            'site.routes' => [
+                'type' => 'array',
+                'label' => 'Custom',
+                'placeholder_key' => '/your/alias',
+                'placeholder_value' => '/your/route',
+                'name' => 'site.routes'
             ]
         ],
         'rules' => [
@@ -542,27 +542,6 @@ return [
                 ],
                 'problems' => [
                     'enabled' => 'plugins.problems.enabled'
-                ]
-            ],
-            'site' => [
-                'title' => 'site.title',
-                'author' => [
-                    'name' => 'site.author.name',
-                    'email' => 'site.author.email'
-                ],
-                'taxonomies' => 'site.taxonomies',
-                'metadata' => 'site.metadata',
-                'blog' => [
-                    'route' => 'site.blog.route'
-                ],
-                'summary' => [
-                    'size' => 'site.summary.size'
-                ],
-                'routes' => 'site.routes'
-            ],
-            'streams' => [
-                'schemes' => [
-                    'xxx' => 'streams.schemes.xxx'
                 ]
             ],
             'system' => [
@@ -623,6 +602,27 @@ return [
                         'close_connection' => 'system.debugger.shutdown.close_connection'
                     ]
                 ]
+            ],
+            'streams' => [
+                'schemes' => [
+                    'xxx' => 'streams.schemes.xxx'
+                ]
+            ],
+            'site' => [
+                'title' => 'site.title',
+                'author' => [
+                    'name' => 'site.author.name',
+                    'email' => 'site.author.email'
+                ],
+                'taxonomies' => 'site.taxonomies',
+                'metadata' => 'site.metadata',
+                'blog' => [
+                    'route' => 'site.blog.route'
+                ],
+                'summary' => [
+                    'size' => 'site.summary.size'
+                ],
+                'routes' => 'site.routes'
             ]
         ],
         'filter' => [

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'user/config/site.yaml',
-    'modified' => 1424965949,
+    'modified' => 1425289281,
     'data' => [
         'title' => 'Une Saison graphique',
         'author' => [

@@ -7,14 +7,24 @@ jQuery(document).ready(function($) {
 	  })
 	  .panzoom("pan", -2836, -1500);
 
-	// $(".zoom-plus").on("click", function(e){
-	//  e.preventDefault(); $(".panzoom").panzoom("zoomIn"); 
-	// });
-	// $(".zoom-moins").on("click", function(e){
-	//  e.preventDefault(); $(".panzoom").panzoom("zoomOut"); 
-	// });
+		// $('.panzoom').panzoom({
+  //           $zoomIn: $('.zoom').find(".zoom-in"),
+  //           $zoomOut: $('.zoom').find(".zoom-out"),
+  //           $zoomRange: $('.zoom').find(".zoom-range"),
+  //           $reset: $('.zoom').find(".reset"),
+  //           startTransform: 'scale(1.1)',
+  //           increment: 0.1,
+  //           minScale: 1,
+  //           contain: 'invert'
+  //         }).panzoom('zoom');
 
 	//ANCRE
+	// $('.submenu .SarahBoris a').click(function(){
+	// 	$(".panzoom").panzoom("pan", 1700, -200, {
+ //              relative: true,
+ //              animate: true
+ //          });
+	// });
 	// $('.submenu li a').click(function() {
 	// 	var element = $(this).attr('data-title');
 	// 	console.log("Left: " + $(element).offset().left + " Top: " + $(element).offset().top);
@@ -50,5 +60,5 @@ jQuery(document).ready(function($) {
  //            	$dialog.dialog('close');
  //        	}
  //        });
- //    });
+    // });
 });
