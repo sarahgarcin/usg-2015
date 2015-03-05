@@ -3,6 +3,17 @@ title: Sarah Boris
 ---
 
 #Sarah Boris
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat ex tempor porttitor dignissim. Sed purus nisl, consectetur id nisl a, commodo scelerisque ex. Ut orci leo, faucibus vitae elit ut, fringilla commodo massa. Praesent pellentesque tortor purus, quis cursus lacus fringilla eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam et eros sollicitudin, dictum sapien at, laoreet dui. Praesent tincidunt, nisl nec laoreet venenatis, justo ipsum tempus purus, et blandit nulla ipsum at turpis. Suspendisse mollis metus diam, ac vestibulum nulla ultrices non. Suspendisse ac leo enim. Ut finibus tellus eget velit placerat, eget aliquet lacus facilisis. Vestibulum sit amet lacus ut risus sollicitudin varius. Nunc molestie efficitur massa, et pharetra nibh venenatis ac. Sed tristique pellentesque euismod. Praesent mollis at erat nec condimentum. Suspendisse venenatis ex id nisi porttitor, congue aliquet tellus elementum.
+- Date de conférence : le 4 juin, à 18h, La Galerne
+- Le Carré du Théâtre de l’Hôtel de Ville
+Esplanade Jacques Tournant
+- Vernissage, le 23 mai à 11h30 Entrée libre du mardi au samedi de 12h45 à 18h30, et le mercredi matin de 9h30 à 11h30
+- date exposition, horaire d'ouverture?
+- renseignement, telephone
+- Sarah Boris est une graphiste et directrice artistique française basée à Londres (sa ville natale), depuis 2003. 
 
-Quisque id sapien blandit, molestie nisi eu, ultricies ipsum. Suspendisse feugiat nisl ac dolor consequat, sit amet pellentesque enim semper. Pellentesque eget viverra nulla. Curabitur vel magna ac erat porttitor sagittis. Nunc consequat sodales est vel molestie. Fusce diam lorem, vestibulum quis iaculis id, volutpat vitae diam. Proin tristique congue mi, ac cursus leo porta sit amet. Vestibulum arcu mi, pulvinar convallis eros sit amet, vulputate porta tortor. Vivamus vestibulum neque dui, imperdiet congue diam tempus sit amet. Maecenas placerat, urna in hendrerit mollis, diam lorem facilisis mi, non hendrerit enim leo ultrices sapien. Praesent at rutrum ante, vel elementum dui. Nullam iaculis, velit in venenatis posuere, lorem quam sodales sem, non dignissim sem nisl nec odio. Proin et urna est. Nam ullamcorper et ante mattis tempus. Donec viverra eleifend dui vitae laoreet. 
+Titulaire d’un DMA en Typographie à l’école Estienne de Paris et d’un Master en graphisme du London College of Communication, elle travaille principalement dans les domaines de l'édition, de la culture et de la photographie, auprès d'artistes et d'institutions artistiques. De 2010 à 2012, elle enseigne le graphisme en tant qu’intervenante au London College of Communication, University of Arts London. 
+
+Elle a été employée comme graphiste au Barbican Centre, où elle a été notamment en charge de l'intégration de l'identité visuelle créée par North Design Studio, et a ensuite travaillé pour l’Institut d'Art Contemporain de Londres (ICA) pendant cinq ans, pour qui elle a désigné et développé une nouvelle identité visuelle en 2009, toujours en application aujourd'hui. 
+
+Son travail graphique se définit par une économie de moyen et une réalisation toujours à l'écoute de son commanditaire et du public concerné. 'Less is more' est l’un des moteurs clés de sa création qui se veut honnête, fonctionnelle et simple. L'identité visuelle créée pour le ICA est un bon exemple de cela. Sarah a développé un système identitaire en noir et blanc visant à renforcer la connexion au lieu avec les artistes, les employés et le public. Cette nouvelle identité permet de distinguer le ICA des autres institutions et musées, tout en demeurant économique, et invite à de nombreuses possibilités de DIY; la couleur se trouvant dans le contenu des expositions elles-mêmes.
+

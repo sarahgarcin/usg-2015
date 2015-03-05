@@ -3,6 +3,7 @@
 {% block content %}
 	<div class="panzoom">
 		{# include the header + navigation #}
+			<div id="dialog"></div>
         {% include 'partials/header.html.twig' %}
         <div class="carte-container">
         	<div class="cartes">
@@ -14,7 +15,7 @@
         			{% if page.children %}
 	        			{% for child in page.children %}
 	        				{% if child.media %}
-		        				<div id="{{ child.menu |replace({' ': '',})}}">
+		        				<div id="{{ child.menu |replace({' ': '',}) |replace({'+': '',}) |replace({'&': '',})}}">
 		        					<a href="{{child.url}}" alt="{{child.title}}">
 			        					<h3>{{child.title}}</h3>
 			        					<img src="{{child.media["image.png"]}}">
