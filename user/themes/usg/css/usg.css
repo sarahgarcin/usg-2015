@@ -36,37 +36,83 @@ li {
 img {
   max-width: none; }
 
-.navbar {
+.panzoom {
+  top: -1038px;
+  left: -3500px;
+  cursor: url("../images/cursor.png"), pointer; }
+
+.title {
   position: absolute;
   background-color: transparent;
   border: none;
   top: 1100px;
-  left: 3600px;
+  left: 250px;
   width: 100%;
+  z-index: 3;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 100px; }
+  .title h1 {
+    font-size: 13em;
+    margin: -15px 0px 0px 0px; }
+  .title h2 {
+    font-size: 5em;
+    margin: 0px; }
+  .title h3 {
+    font-size: 3.5em;
+    margin: 0px; }
+
+.navbar {
+  position: absolute;
+  top: 80px;
+  left: 30px;
   z-index: 3; }
-  .navbar .container {
-    width: 100%; }
-  .navbar div {
-    display: inline-block !important;
+  .navbar .home {
+    width: 50px;
+    display: inline-block;
     vertical-align: top; }
-  .navbar .title {
-    text-align: center;
-    margin-left: 10%;
-    margin-top: 100px; }
-    .navbar .title h1 {
-      font-size: 13em;
-      margin: -15px 0px 0px 0px; }
-    .navbar .title h2 {
-      font-size: 5em;
-      margin: 0px; }
-    .navbar .title h3 {
-      font-size: 3.5em;
-      margin: 0px; }
+    .navbar .home .toit {
+      width: 100%;
+      height: 20px; }
+      .navbar .home .toit .toit1 {
+        width: 46%;
+        height: 100%;
+        border-bottom: 4px solid #000;
+        transform: rotate(-45deg);
+        display: inline-block; }
+      .navbar .home .toit .toit2 {
+        width: 47%;
+        height: 100%;
+        border-bottom: 4px solid #000;
+        transform: rotate(45deg);
+        display: inline-block; }
+    .navbar .home .mur {
+      width: 70%;
+      margin: 3px auto;
+      height: 30px;
+      border: 4px solid #000;
+      background-color: #FFF; }
+  .navbar .menu-toggle {
+    width: 60px;
+    height: 80px;
+    border: 4px solid #000;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFF;
+    cursor: pointer; }
+    .navbar .menu-toggle div {
+      border-top: 4px solid #000;
+      border-bottom: 4px solid #000;
+      height: 20px;
+      width: 70%;
+      margin: 10px auto 10px auto; }
   .navbar .navbar-collapse {
     border: 4px solid #000;
     padding: 10px 0px 30px 10px;
     width: 300px;
-    background-color: #FFF; }
+    background-color: #FFF;
+    display: inline-block; }
   .navbar ul.nav li {
     float: none;
     display: block;
@@ -80,26 +126,29 @@ img {
         color: #FFF;
         background-color: #000;
         font-weight: normal; }
+    .navbar ul.nav li:hover .a {
+      color: #FFF;
+      background-color: #000;
+      font-weight: normal; }
+  .navbar ul.nav li:hover .submenu {
+    display: block; }
   .navbar ul.nav .submenu {
     display: none;
     position: absolute;
     margin-top: -60px;
-    left: 300px;
     background-color: #FFF;
     border: 4px solid #000;
-    padding: 10px 40px 30px 40px; }
+    padding: 10px 40px 30px 40px;
+    width: 100%; }
     .navbar ul.nav .submenu .carreblanc {
       background-color: #FFF;
-      width: 15px;
+      width: 0.8em;
       height: 60px;
       position: absolute;
-      border: 1px solid #FFF;
       top: -4px;
-      left: -14px;
+      left: -0.79em;
       border-top: 4px solid #000;
       border-bottom: 4px solid #000; }
-  .navbar li:hover .submenu {
-    display: block; }
 
 .carte-expo {
   position: absolute;
@@ -115,77 +164,101 @@ img {
 .img-expo div {
   position: absolute; }
 .img-expo #SarahBoris {
-  top: 1720px;
-  left: 1675px; }
+  top: 1765px;
+  left: 1555px; }
   .img-expo #SarahBoris img {
     width: 630px; }
   .img-expo #SarahBoris h3 {
-    top: 200px;
+    top: 0px;
     left: 350px;
-    transform: rotate(-26deg); }
+    transform: rotate(-29deg); }
 .img-expo #GavilletandRust {
   top: 2000px;
-  left: 3480px; }
+  left: 3310px; }
   .img-expo #GavilletandRust img {
     width: 130px; }
   .img-expo #GavilletandRust h3 {
     top: 0px;
-    left: 20px;
-    transform: rotate(-15deg); }
+    left: 150px;
+    transform: rotate(-18deg); }
 .img-expo #MichaelRiedel {
-  top: 2620px;
-  left: 4170px; }
+  top: 2663px;
+  left: 4023px; }
   .img-expo #MichaelRiedel img {
     width: 495px; }
   .img-expo #MichaelRiedel h3 {
-    top: 250px;
-    left: 150px;
-    transform: rotate(-10deg); }
+    top: -30px;
+    left: 320px;
+    transform: rotate(-22deg); }
 .img-expo #FanetteMellier {
-  top: 2485px;
-  left: 1980px; }
+  top: 2520px;
+  left: 1822px; }
   .img-expo #FanetteMellier img {
     width: 200px; }
   .img-expo #FanetteMellier h3 {
-    top: 20px;
-    left: 0px;
-    transform: rotate(-17deg); }
+    top: -60px;
+    left: 150px;
+    transform: rotate(-26deg); }
 .img-expo #CollectifSuperTerrain {
-  top: 1935px;
-  left: 5465px; }
+  width: 320px;
+  top: 2055px;
+  left: 5520px; }
   .img-expo #CollectifSuperTerrain img {
-    width: 480px; }
+    width: 100%; }
   .img-expo #CollectifSuperTerrain h3 {
-    top: 230px;
-    left: 70px;
-    transform: rotate(-16deg); }
+    top: 130px;
+    left: 30px;
+    transform: rotate(-6deg); }
 .img-expo #FredericTacer {
-  top: 1643px;
-  left: 5410px; }
+  top: 1730px;
+  left: 5450px;
+  width: 400px; }
   .img-expo #FredericTacer img {
-    width: 470px; }
+    width: 100%; }
   .img-expo #FredericTacer h3 {
-    top: 320px;
-    left: 170px;
-    transform: rotate(-1deg); }
+    top: 200px;
+    left: 120px;
+    transform: rotate(-4deg); }
 .img-expo #AntoineManuel {
   top: 2240px;
-  left: 4835px; }
+  left: 4835px;
+  width: 230px; }
   .img-expo #AntoineManuel img {
-    width: 230px; }
+    width: 100%; }
   .img-expo #AntoineManuel h3 {
     top: 65px;
     left: 30px;
-    transform: rotate(-10deg); }
+    transform: rotate(9deg); }
 .img-expo #AgatheDemoisVincentGodeau {
   top: 3480px;
-  left: 6180px; }
+  left: 6170px;
+  width: 460px; }
   .img-expo #AgatheDemoisVincentGodeau img {
-    width: 460px; }
+    width: 100%; }
   .img-expo #AgatheDemoisVincentGodeau h3 {
-    top: 150px;
-    left: 10px;
-    transform: rotate(9deg); }
+    top: 190px;
+    left: 55px;
+    transform: rotate(8deg); }
+.img-expo #MaotikMetametric {
+  top: 70px;
+  left: 4350px;
+  width: 210px; }
+  .img-expo #MaotikMetametric img {
+    width: 100%; }
+  .img-expo #MaotikMetametric h3 {
+    top: 100px;
+    left: -10px;
+    transform: rotate(-11deg); }
+.img-expo #Unekermessegraphique {
+  top: 100px;
+  left: 4540px;
+  width: 250px; }
+  .img-expo #Unekermessegraphique img {
+    width: 100%; }
+  .img-expo #Unekermessegraphique h3 {
+    top: 100px;
+    left: 40px;
+    transform: rotate(5deg); }
 
 .img-expo div h3 {
   background-color: #FFF;
@@ -198,8 +271,9 @@ img {
 
 .ui-dialog {
   background-color: #FFF;
-  overflow: hidden;
-  height: 600px !important; }
+  overflow: auto;
+  height: 600px !important;
+  z-index: 99; }
   .ui-dialog .container {
     padding: 0px; }
   .ui-dialog .ui-dialog-titlebar {
@@ -208,19 +282,40 @@ img {
     visibility: hidden; }
 
 .row {
-  width: 100%;
-  max-width: 100%;
-  height: 1000px;
-  overflow: auto; }
+  width: 150%;
+  max-width: 150%;
+  left: -20%;
+  height: 600px;
+  position: relative; }
   .row .colonne-left {
-    overflow: hidden; }
+    overflow: hidden;
+    height: 600px;
+    position: relative;
+    left: 0px;
+    z-index: 100; }
     .row .colonne-left img {
-      width: 120%;
-      margin-left: -100px; }
-  .row .right-scroll .colonne-right {
-    padding-right: 0px; }
-    .row .right-scroll .colonne-right li img {
       width: 100%; }
+    .row .colonne-left .inner-content {
+      position: relative; }
+  .row .colonne-central {
+    overflow-y: auto;
+    height: 600px; }
+  .row .colonne-right {
+    position: relative;
+    padding-right: 0px;
+    left: 0px;
+    height: 600px;
+    overflow-y: auto;
+    z-index: 101; }
+    .row .colonne-right .inner-content {
+      position: relative; }
+    .row .colonne-right li img {
+      width: 100%; }
+
+.container {
+  overflow: auto; }
+  .container .static-text {
+    padding: 40px 200px; }
 
 .footer {
   position: absolute;

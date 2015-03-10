@@ -1,4 +1,0 @@
----
-title: Gavillet and Rust
----
-

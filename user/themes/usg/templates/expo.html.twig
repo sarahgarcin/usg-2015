@@ -1,0 +1,29 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+	<div class="row">
+		<div class="colonne-left large-4 columns">
+			<div class="inner-content">
+				{% set image = page.media.images | first %}
+				<img src="{{ image.url }}" alt="{{ page.slug }}" />
+			</div>
+			</div>
+			<div class="colonne-central large-4 columns">
+				<h2>{{ page.title }}</h2>
+				{{ page.content }}	
+			</div>
+			<div class="colonne-right large-4 columns">
+				<div class="inner-content">
+					{% for pictures in page.media.images|slice(1, length) %}
+						{% set picture = pictures %}
+						<li>
+							<img src="{{ picture.url }}" alt="{{ page.slug }}" />
+						</li>
+					{% endfor %}
+				</div>
+
+		</div>
+			
+	</div>
+    
+{% endblock %}
