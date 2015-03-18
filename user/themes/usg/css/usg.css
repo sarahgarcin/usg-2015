@@ -14,7 +14,7 @@
 html {
   position: relative;
   min-height: 100%;
-  overflow: auto; }
+  overflow: hidden; }
 
 body {
   margin-bottom: 60px;
@@ -45,7 +45,7 @@ img {
   position: absolute;
   background-color: transparent;
   border: none;
-  top: 1100px;
+  top: 1200px;
   left: 250px;
   width: 100%;
   z-index: 3;
@@ -54,19 +54,22 @@ img {
   margin-top: 100px; }
   .title h1 {
     font-size: 13em;
-    margin: -15px 0px 0px 0px; }
+    margin: -15px 0px 0px 0px;
+    line-height: 1.5em; }
   .title h2 {
     font-size: 5em;
-    margin: 0px; }
+    margin: 0px;
+    line-height: 0px; }
   .title h3 {
     font-size: 3.5em;
-    margin: 0px; }
+    margin: 0px;
+    line-height: 0px; }
 
 .navbar {
   position: absolute;
   top: 80px;
   left: 30px;
-  z-index: 3; }
+  z-index: 200; }
   .navbar .home {
     width: 50px;
     display: inline-block;
@@ -112,7 +115,9 @@ img {
     padding: 10px 0px 30px 10px;
     width: 300px;
     background-color: #FFF;
-    display: inline-block; }
+    display: none;
+    margin-left: 20px;
+    float: right; }
   .navbar ul.nav li {
     float: none;
     display: block;
@@ -164,41 +169,45 @@ img {
 .img-expo div {
   position: absolute; }
 .img-expo #SarahBoris {
-  top: 1765px;
-  left: 1555px; }
+  top: 1725px;
+  left: 1678px;
+  width: 630px; }
   .img-expo #SarahBoris img {
-    width: 630px; }
+    width: 100%; }
   .img-expo #SarahBoris h3 {
-    top: 0px;
+    top: 200px;
     left: 350px;
-    transform: rotate(-29deg); }
+    transform: rotate(-11deg); }
 .img-expo #GavilletandRust {
-  top: 2000px;
-  left: 3310px; }
+  top: 1980px;
+  left: 3480px;
+  width: 130px; }
   .img-expo #GavilletandRust img {
-    width: 130px; }
+    width: 100%; }
   .img-expo #GavilletandRust h3 {
     top: 0px;
-    left: 150px;
-    transform: rotate(-18deg); }
+    left: 0px;
+    transform: rotate(-19deg); }
 .img-expo #MichaelRiedel {
-  top: 2663px;
-  left: 4023px; }
+  top: 2623px;
+  left: 4170px;
+  width: 495px; }
   .img-expo #MichaelRiedel img {
-    width: 495px; }
+    width: 100%; }
   .img-expo #MichaelRiedel h3 {
-    top: -30px;
-    left: 320px;
-    transform: rotate(-22deg); }
+    top: 190px;
+    left: 130px;
+    transform: rotate(-14deg); }
 .img-expo #FanetteMellier {
-  top: 2520px;
-  left: 1822px; }
+  top: 2484px;
+  left: 1982px;
+  width: 200px; }
   .img-expo #FanetteMellier img {
-    width: 200px; }
+    width: 100%; }
   .img-expo #FanetteMellier h3 {
-    top: -60px;
-    left: 150px;
-    transform: rotate(-26deg); }
+    top: 30px;
+    left: 0px;
+    transform: rotate(-12deg); }
 .img-expo #CollectifSuperTerrain {
   width: 320px;
   top: 2055px;
@@ -208,7 +217,7 @@ img {
   .img-expo #CollectifSuperTerrain h3 {
     top: 130px;
     left: 30px;
-    transform: rotate(-6deg); }
+    transform: rotate(-12deg); }
 .img-expo #FredericTacer {
   top: 1730px;
   left: 5450px;
@@ -218,7 +227,7 @@ img {
   .img-expo #FredericTacer h3 {
     top: 200px;
     left: 120px;
-    transform: rotate(-4deg); }
+    transform: rotate(-10deg); }
 .img-expo #AntoineManuel {
   top: 2240px;
   left: 4835px;
@@ -228,7 +237,7 @@ img {
   .img-expo #AntoineManuel h3 {
     top: 65px;
     left: 30px;
-    transform: rotate(9deg); }
+    transform: rotate(8deg); }
 .img-expo #AgatheDemoisVincentGodeau {
   top: 3480px;
   left: 6170px;
@@ -238,7 +247,7 @@ img {
   .img-expo #AgatheDemoisVincentGodeau h3 {
     top: 190px;
     left: 55px;
-    transform: rotate(8deg); }
+    transform: rotate(10deg); }
 .img-expo #MaotikMetametric {
   top: 70px;
   left: 4350px;
@@ -248,7 +257,7 @@ img {
   .img-expo #MaotikMetametric h3 {
     top: 100px;
     left: -10px;
-    transform: rotate(-11deg); }
+    transform: rotate(-16deg); }
 .img-expo #Unekermessegraphique {
   top: 100px;
   left: 4540px;
@@ -258,7 +267,7 @@ img {
   .img-expo #Unekermessegraphique h3 {
     top: 100px;
     left: 40px;
-    transform: rotate(5deg); }
+    transform: rotate(10deg); }
 
 .img-expo div h3 {
   background-color: #FFF;
@@ -271,7 +280,7 @@ img {
 
 .ui-dialog {
   background-color: #FFF;
-  overflow: auto;
+  overflow: hidden;
   height: 600px !important;
   z-index: 99; }
   .ui-dialog .container {
@@ -284,9 +293,11 @@ img {
 .row {
   width: 150%;
   max-width: 150%;
-  left: -20%;
+  left: -25%;
   height: 600px;
   position: relative; }
+  .row .columns {
+    padding: 0px; }
   .row .colonne-left {
     overflow: hidden;
     height: 600px;
@@ -299,6 +310,7 @@ img {
       position: relative; }
   .row .colonne-central {
     overflow-y: auto;
+    overflow-x: hidden;
     height: 600px; }
   .row .colonne-right {
     position: relative;
@@ -324,21 +336,5 @@ img {
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #f5f5f5; }
-
-/* Typography */
-/* Tables */
-table {
-  width: 100%;
-  border: 1px solid #f0f0f0;
-  margin: 30px 0; }
-
-th {
-  font-weight: bold;
-  background: #f9f9f9;
-  padding: 5px; }
-
-td {
-  padding: 5px;
-  border: 1px solid #f0f0f0; }
 
 /*# sourceMappingURL=usg.css.map */
