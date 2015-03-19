@@ -20,7 +20,7 @@ $(document).ready(function(){
 	// / / /      / / /____\/ // / /    / / // / /_________\/_/ /   /\__\/_/___\/ / /____\/ // / /    / / / \ \/___/ /       
 	// \/_/       \/_________/ \/_/     \/_/ \/____________/\_\/    \/_________/\/_________/ \/_/     \/_/   \_____\/        
 	                                                                                                                      
-	function OpenPopup($link, $this) {
+	function OpenPopup($link, $this, e) {
 		$dialog.dialog({
 	    	autoOpen: false,
 	    	appendTo: ".panzoom",
@@ -31,7 +31,12 @@ $(document).ready(function(){
 	 	});
 	 	$dialog.load($link + " .container");
 		$dialog.dialog('open');
-		animateColonne();
+		//Close Pop when click outside
+		$('.panzoom').on('click tap', function (e){
+    	if (!$dialog.is(e.target) && $dialog.has(e.target).length === 0){
+        $dialog.dialog("close");
+    	}
+		});
 	}
 
 
@@ -52,10 +57,10 @@ $(document).ready(function(){
 	$(window).load(function(){
 		var navWidth = $('.navbar').width() - 30;
 		$('.submenu').css('left', navWidth);
-	});	                             
+	});	                              
 	                             
 	//     ___      ___      ___    
-	//   //   ) ) //___) ) //   ) ) 
+	//   //   ) ) //___) ) //    ) ) 
 	//  //___/ / //       //___/ /  
 	// //       ((____   //         
 
@@ -71,7 +76,7 @@ $(document).ready(function(){
 		// }
 	});
 
-	// var addEase = new function () {
+// var addEase = new function () {
 	// 	// Ease In Function
 	// 	// Params: Time, Begin, Change (Finish - Begin), Duration
 	// 	var easeIn = function(t, b, c, d) {
@@ -92,7 +97,7 @@ $(document).ready(function(){
  //      dTa[elemId] = Ta;        
  //    }; 
     
- //    this.end = function (elemId, Xb, Yb, Tb)  {    
+ //    thi s.end = function (elemId, Xb, Yb, Tb)  {    
  //      var Xa = dXa[elemId];
  //      var Ya = dYa[elemId];
  //      var Ta = dTa[elemId];
@@ -126,7 +131,7 @@ $(document).ready(function(){
 
 	// };
 
-	// var dragMomentum = new function () {    
+// var dragMomentum = new function () {    
  //    var howMuch = 200;  // change this for greater or lesser momentum
  //    var minDrift = 10; // minimum drift after a drag move
  //    var easeType = 'easeOutCirc';
@@ -288,7 +293,7 @@ $(document).ready(function(){
  //                            newTop = (position.top + (speedY * stepDuration / 2));
 
  //                        $d.css({
- //                            left: newLeft+"px",
+ //                          static  left: newLeft+"px",
  //                            top: newTop+"px"
  //                        });
  //                    }
@@ -355,65 +360,56 @@ $(document).ready(function(){
 			e.preventDefault();
 		}
 	});
-	
-	//Close Pop when click outside
-	// $('.panzoom').mouseup(function (e){
- //    if (!$dialog.is(e.target) && $dialog.has(e.target).length === 0){
- //        $dialog.dialog("close");
- //    }
-	// });
+
 	
 	//Animation on image in dialog window
-	function animateColonne(){
-		var $dialogLeft = $('.colonne-left');
-		var $dialogRight = $('.colonne-right');
+	var $dialogLeft = $('.colonne-left');
+	var $dialogRight = $('.colonne-right');
+	$dialog.on('click',$dialogLeft, animateLeft);
+	$dialog.on('click',$dialogRight, animateRight);
 
+	function animateLeft(event){
 		var dialogWidth = $('.ui-dialog').width();
 		var rowWidth = ((dialogWidth * 50) / 100) + dialogWidth;
 		var colonneWidth = (rowWidth * 33) / 100; 
-		console.log(colonneWidth);
 		var leftMove = colonneWidth / 2;
-
-		$dialog.on('click doubletap', $dialogLeft, function(e){
-			$colonneLeft = $(this).children().children().children('.colonne-left');
-			if($colonneLeft.hasClass('active')){
-				$colonneLeft.removeClass('active');
-				$colonneLeft.animate({
-					left: 0
-				});
-			}
-			else{
-				$colonneLeft.addClass('active');
-				$colonneLeft.animate({
-					left: leftMove
-				});
-			}
-			;
-		});
-		$dialog.on('click doubletap', $dialogRight, function(e){
-			$colonneRight = $(this).children().children().children('.colonne-right');
-			if($colonneRight.hasClass('active')){
-				$colonneRight.removeClass('active');
-				$colonneRight.animate({
-					left: 0
-				});
-			}
-			else{
-				$colonneRight.addClass('active');
-				$colonneRight.animate({
-					left: -leftMove
-				});
-			}
-			
-		});
+		$colonneLeft = $(this).children().children().children('.colonne-left');
+		if($colonneLeft.hasClass('active')){
+			$colonneLeft.removeClass('active');
+			$colonneLeft.animate({
+				left: 0
+			});
+		}
+		else{
+			$colonneLeft.addClass('active');
+			$colonneLeft.animate({
+				left: leftMove
+			});
+		};
+	}
+	function animateRight(){
+		var dialogWidth = $('.ui-dialog').width();
+		var rowWidth = ((dialogWidth * 50) / 100) + dialogWidth;
+		var colonneWidth = (rowWidth * 33) / 100; 
+		var leftMove = colonneWidth / 2;
+		$colonneRight = $(this).children().children().children('.colonne-right');
+		if($colonneRight.hasClass('active')){
+			$colonneRight.removeClass('active');
+			$colonneRight.animate({
+				left: 0
+			});
+		}
+		else{
+			$colonneRight.addClass('active');
+			$colonneRight.animate({
+				left: -leftMove
+			});
+		}
 	}
 
 	$dialog.on("touchstart touchstop touchmove click", $('.colonne-central'), function(e){
 		e.stopPropagation(); 
 	}); 
-
-
-
 	// ___ ____ ____ ____ _    ____    _  _ ____ _  _ _  _    
 	//  |  |  | |  | | __ |    |___    |\/| |___ |\ | |  |    
 	//  |  |__| |__| |__] |___ |___    |  | |___ | \| |__|   
@@ -430,6 +426,28 @@ $(document).ready(function(){
 	 	});
 	 	var widthMenu = $(".navbar").width();
 	 	$('.submenu').css("left", widthMenu-30);
+	});
+
+	// .-. .-. .-. 
+	// |   `-. `-. 
+	// `-' `-' `-' 
+	var h2Size = $(window).width() / 300 + "em";
+	var h1Size = $(window).width() / 150 + "em";
+	var h3Size = $(window).width() / 450 + "em";
+	$('.title h2').css('font-size', h2Size);
+	$('.title h1').css('font-size', h1Size);
+	$('.title h3').css('font-size', h3Size);
+
+	jQuery.fn.center = function (){
+    this.css("position","absolute");
+    this.css("top", ($('.panzoom').height() / 3) - (this.height() / 2));
+    this.css("left", ($('.panzoom').width() / 2) - (this.outerWidth() / 2));
+    return this;
+	}
+
+	$('.title').center();
+	$(window).resize(function(){
+	   $('.title').center();
 	});
 
 });

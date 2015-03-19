@@ -59,11 +59,11 @@ img {
   border:none;
   top: 1200px;
   left:250px;
-  width: 100%;
+  width: auto;
+  height: auto;
   z-index: 3;
   text-align: center;
-  margin-left: 10%;
-  margin-top: 100px;
+  margin-left: 12%;
   h1 {
     font-size: 13em;
     margin: -15px 0px 0px 0px;
@@ -421,7 +421,9 @@ img {
   overflow: auto;
   .static-text{
     padding: 40px 200px;
-
+    height: 600px;
+    overflow-y:auto;
+    overflow-x:hidden;  
   }
 } 
 

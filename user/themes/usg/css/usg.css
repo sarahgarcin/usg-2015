@@ -47,11 +47,11 @@ img {
   border: none;
   top: 1200px;
   left: 250px;
-  width: 100%;
+  width: auto;
+  height: auto;
   z-index: 3;
   text-align: center;
-  margin-left: 10%;
-  margin-top: 100px; }
+  margin-left: 12%; }
   .title h1 {
     font-size: 13em;
     margin: -15px 0px 0px 0px;
@@ -177,7 +177,7 @@ img {
   .img-expo #SarahBoris h3 {
     top: 200px;
     left: 350px;
-    transform: rotate(-11deg); }
+    transform: rotate(-21deg); }
 .img-expo #GavilletandRust {
   top: 1980px;
   left: 3480px;
@@ -187,7 +187,7 @@ img {
   .img-expo #GavilletandRust h3 {
     top: 0px;
     left: 0px;
-    transform: rotate(-19deg); }
+    transform: rotate(-10deg); }
 .img-expo #MichaelRiedel {
   top: 2623px;
   left: 4170px;
@@ -197,7 +197,7 @@ img {
   .img-expo #MichaelRiedel h3 {
     top: 190px;
     left: 130px;
-    transform: rotate(-14deg); }
+    transform: rotate(-16deg); }
 .img-expo #FanetteMellier {
   top: 2484px;
   left: 1982px;
@@ -207,7 +207,7 @@ img {
   .img-expo #FanetteMellier h3 {
     top: 30px;
     left: 0px;
-    transform: rotate(-12deg); }
+    transform: rotate(-11deg); }
 .img-expo #CollectifSuperTerrain {
   width: 320px;
   top: 2055px;
@@ -217,7 +217,7 @@ img {
   .img-expo #CollectifSuperTerrain h3 {
     top: 130px;
     left: 30px;
-    transform: rotate(-12deg); }
+    transform: rotate(-17deg); }
 .img-expo #FredericTacer {
   top: 1730px;
   left: 5450px;
@@ -227,7 +227,7 @@ img {
   .img-expo #FredericTacer h3 {
     top: 200px;
     left: 120px;
-    transform: rotate(-10deg); }
+    transform: rotate(-1deg); }
 .img-expo #AntoineManuel {
   top: 2240px;
   left: 4835px;
@@ -237,7 +237,7 @@ img {
   .img-expo #AntoineManuel h3 {
     top: 65px;
     left: 30px;
-    transform: rotate(8deg); }
+    transform: rotate(-11deg); }
 .img-expo #AgatheDemoisVincentGodeau {
   top: 3480px;
   left: 6170px;
@@ -247,7 +247,7 @@ img {
   .img-expo #AgatheDemoisVincentGodeau h3 {
     top: 190px;
     left: 55px;
-    transform: rotate(10deg); }
+    transform: rotate(9deg); }
 .img-expo #MaotikMetametric {
   top: 70px;
   left: 4350px;
@@ -257,7 +257,7 @@ img {
   .img-expo #MaotikMetametric h3 {
     top: 100px;
     left: -10px;
-    transform: rotate(-16deg); }
+    transform: rotate(-5deg); }
 .img-expo #Unekermessegraphique {
   top: 100px;
   left: 4540px;
@@ -267,7 +267,7 @@ img {
   .img-expo #Unekermessegraphique h3 {
     top: 100px;
     left: 40px;
-    transform: rotate(10deg); }
+    transform: rotate(7deg); }
 
 .img-expo div h3 {
   background-color: #FFF;
@@ -327,7 +327,10 @@ img {
 .container {
   overflow: auto; }
   .container .static-text {
-    padding: 40px 200px; }
+    padding: 40px 200px;
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden; }
 
 .footer {
   position: absolute;
