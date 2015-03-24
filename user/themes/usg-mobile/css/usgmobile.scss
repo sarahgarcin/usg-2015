@@ -55,7 +55,7 @@ li {
 }
 
 img {
-  max-width: none;
+  max-width: none;  
 }
 
 header{
@@ -122,6 +122,29 @@ header{
       padding: 17px 30px;
       a{
         border-bottom: 4px solid #000;
+      }
+      .submenu {
+        position: absolute;
+        display: none;
+      }
+      &.Expositions .submenu{
+        position: absolute;
+        top:0px;
+        left:0px;
+        z-index:4;
+        background-color: #FFF;
+        margin-left: 0px;
+        width:100%;
+        li{
+          padding: 0px;
+          background-color: #FFF;
+          a{
+            border:none;
+          }
+        }
+        img{
+          width:100%;
+        }
       }
     }
   }

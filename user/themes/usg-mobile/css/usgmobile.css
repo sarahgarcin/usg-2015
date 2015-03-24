@@ -2466,6 +2466,24 @@ header {
       padding: 17px 30px; }
       .navbar .sommaire li a {
         border-bottom: 4px solid #000; }
+      .navbar .sommaire li .submenu {
+        position: absolute;
+        display: none; }
+      .navbar .sommaire li.Expositions .submenu {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 4;
+        background-color: #FFF;
+        margin-left: 0px;
+        width: 100%; }
+        .navbar .sommaire li.Expositions .submenu li {
+          padding: 0px;
+          background-color: #FFF; }
+          .navbar .sommaire li.Expositions .submenu li a {
+            border: none; }
+        .navbar .sommaire li.Expositions .submenu img {
+          width: 100%; }
 
 .static-text {
   padding: 30px; }

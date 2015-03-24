@@ -6,14 +6,12 @@
           <a href="{{ page.url }}">{{ page.menu }}</a>
           {% if page.children is not empty %}
             <ul class="submenu">
-              <div class="carreblanc"></div>
             {% for child in page.children %}
                   <li class="{{ current_page }} {{child.title |replace({' ': '',}) |replace({'&': '',}) |replace({'&': '',})}}">
                     <a href="{{ child.url }}">
                     {% if child.media.images is not empty%}
                       <img src="{{child.media["cover.png"]}}">
                     {% endif %}
-                      {{ child.menu }}
                     </a>
                   </li>
             {% endfor %}
