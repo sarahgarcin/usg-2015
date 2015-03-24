@@ -1,18 +1,18 @@
 ---
-title: Gavillet and Rust
+title: Gavillet & Rust
 ---
-Le Portique
-30, rue Gabriel Péri
-Entrée libre du mercredi au samedi, de 15h à 19h
-Réservation préalable pour les visites et ateliers de groupe
+*Le Portique  
+30, rue Gabriel Péri  
+Entrée libre du mercredi au samedi, de 15h à 19h  
+Réservation préalable pour les visites et ateliers de groupe*
 
-Renseignements :
-
-info@leportique.org
-Tél. : +33 (0)2 35 45 53 64
-Entrée libre
-Ouverture du mercredi au samedi
-de 15 h à 18 h 30.
+##Renseignements :
+ 
+info@leportique.org  
+Tél. : +33 (0)2 35 45 53 64 
+Entrée libre  
+Ouverture du mercredi au samedi  
+de 15 h à 18 h 30.  
 
 
 Le studio de design graphique genevois, Gavillet & Rust, intervient, à la fois, dans

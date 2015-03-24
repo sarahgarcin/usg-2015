@@ -357,12 +357,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/donatj/PhpUserAgent.git",
-            "reference": "ea239f0b155138f41cc4bae81f13a5fd85b2d247"
+            "reference": "12e154f6687646f0ecd556f5d72ef1b3643e46da"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/ea239f0b155138f41cc4bae81f13a5fd85b2d247",
-            "reference": "ea239f0b155138f41cc4bae81f13a5fd85b2d247",
+            "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/12e154f6687646f0ecd556f5d72ef1b3643e46da",
+            "reference": "12e154f6687646f0ecd556f5d72ef1b3643e46da",
             "shasum": ""
         },
         "require": {
@@ -372,7 +372,7 @@
             "camspiers/json-pretty": "0.1.*",
             "donatj/drop": "*"
         },
-        "time": "2015-02-01 03:19:38",
+        "time": "2015-02-26 09:14:37",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -608,12 +608,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/rockettheme/toolbox",
-            "reference": "7b1d4bd71db85e87c653b697f0b1e06603e1f7e0"
+            "reference": "880b0fb4ce29dd39dc32cf593a8b310df4400f6a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/rockettheme/toolbox/zipball/7b1d4bd71db85e87c653b697f0b1e06603e1f7e0",
-            "reference": "7b1d4bd71db85e87c653b697f0b1e06603e1f7e0",
+            "url": "https://api.github.com/repos/rockettheme/toolbox/zipball/880b0fb4ce29dd39dc32cf593a8b310df4400f6a",
+            "reference": "880b0fb4ce29dd39dc32cf593a8b310df4400f6a",
             "shasum": ""
         },
         "require": {
@@ -626,7 +626,7 @@
         "require-dev": {
             "phpunit/phpunit": "4.0.*"
         },
-        "time": "2015-02-17 12:52:19",
+        "time": "2015-02-20 11:05:29",
         "type": "library",
         "installation-source": "source",
         "autoload": {

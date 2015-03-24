@@ -1,3 +1,0 @@
----
-title: Jean-Pierre Grüntfeld
----
