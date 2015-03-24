@@ -1,8 +1,10 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
+{% include 'partials/header.html.twig' %}
+{% include 'partials/menu.html.twig' %}
 	<div class="static-text">
-			<h1>{{ page.title }}</h1>
+			<h1><span>{{ page.title }}</span></h1>
 			{{ page.content }}	
 	</div>
     

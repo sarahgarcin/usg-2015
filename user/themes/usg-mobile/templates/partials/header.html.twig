@@ -1,6 +1,15 @@
-<div class="title">
-    <h2>{{ site.title }}</h2>
-    <h1>{{ page.header.year }}</h1>
-    <h3>{{ page.header.date }}</h3>
-    <img class="cnap" src="{{ theme_url }}/images/cnap.png">
-</div>
+<header class="header" id="header">
+		<a href="javascript:history.go(-1)" >
+		<img class="precedent" src="{{ theme_url }}/images/precedent.png" alt="precedent">
+		</a>
+		<div class="title">
+		<a href="{{ base_url == '' ? '/' : base_url }}" title="home">
+    	<h2>{{ site.title }}</h2>
+    	<h1>2015</h1>
+    	</a>
+    </div>
+    <div class="menu-toggle">
+      <div></div>
+      <div></div>
+    </div>
+</header>

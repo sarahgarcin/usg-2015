@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="480px" height="172.143px" viewBox="0 0 480 172.143" enable-background="new 0 0 480 172.143" xml:space="preserve">
+<path fill="#FF5350" d="M369.469,110.701c-17.945,25.645-53.272,31.891-78.915,13.945c-25.644-17.945-31.885-53.277-13.938-78.919
+	c17.936-25.634,53.264-31.883,78.91-13.936C381.173,49.733,387.415,85.064,369.469,110.701z"/>
+<g>
+	
+		<rect x="99.237" y="67.27" transform="matrix(0.9841 -0.1775 0.1775 0.9841 -11.2907 35.9547)" fill="#FFFFFF" width="192.248" height="27.657"/>
+	<text transform="matrix(0.9841 -0.1775 0.1775 0.9841 111.751 103.6963)" font-family="'DejaVuSerif-BoldItalic'" font-size="21">Michael Riedel</text>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="86.0703" x2="480" y2="86.0703">
+	<stop  offset="0" style="stop-color:#ED3193"/>
+	<stop  offset="1" style="stop-color:#F26122"/>
+</linearGradient>
+<rect fill="url(#SVGID_1_)" width="480" height="172.141"/>
+<g>
+	<polygon fill="#F2E1AC" points="376.103,138.351 440.805,78.647 456.88,96.069 392.175,155.776 	"/>
+	<polygon fill="#63A69F" points="81.79,85.651 156.439,16.766 188.584,51.607 113.938,120.486 	"/>
+	<polygon fill="none" stroke="#F2E1AC" stroke-width="2.6831" stroke-miterlimit="10" points="385.39,35.69 390.363,31.098 
+		406.438,48.514 401.457,53.106 	"/>
+	
+		<rect x="260.321" y="35.941" transform="matrix(-0.735 0.6781 -0.6781 -0.735 535.7867 -117.2122)" fill="#63A69F" width="60.955" height="20.312"/>
+	
+		<rect x="21.306" y="65.336" transform="matrix(-0.7347 0.6784 -0.6784 -0.7347 108.6004 125.4578)" fill="none" stroke="#F2E1AC" stroke-width="2.6831" stroke-miterlimit="10" width="16.929" height="37.253"/>
+	
+		<rect x="16.369" y="32.524" transform="matrix(0.0145 0.9999 -0.9999 0.0145 62.1233 18.9488)" fill="#F2E1AC" width="10.159" height="16.931"/>
+	<polyline fill="none" stroke="#F2E1AC" stroke-width="2.6831" stroke-miterlimit="10" points="333.38,172.144 323.112,64.031 
+		356.823,60.829 367.397,172.143 	"/>
+	
+		<line fill="none" stroke="#F2E1AC" stroke-width="2.6831" stroke-miterlimit="10" x1="296.021" y1="163.959" x2="238.433" y2="46.621"/>
+	<polygon fill="none" stroke="#F2E1AC" stroke-width="2.6831" stroke-miterlimit="10" points="209.872,110.632 210.886,103.941 
+		218.85,105.149 217.821,111.854 	"/>
+	
+		<rect x="392.98" y="76.655" transform="matrix(-0.7346 0.6785 -0.6785 -0.7346 741.8445 -130.1001)" fill="#63A69F" width="6.775" height="6.776"/>
+	
+		<line fill="none" stroke="#F2E1AC" stroke-width="2.6831" stroke-miterlimit="10" x1="34.966" y1="41.356" x2="111.524" y2="44.424"/>
+	<g>
+		<line fill="none" stroke="#F2E1AC" stroke-width="1.3415" stroke-miterlimit="10" x1="256.207" y1="0" x2="207.382" y2="67.229"/>
+		<line fill="none" stroke="#F2E1AC" stroke-width="1.3415" stroke-miterlimit="10" x1="245.587" y1="0" x2="201.434" y2="60.794"/>
+	</g>
+</g>
+<g>
+	
+		<rect x="52.005" y="114.512" transform="matrix(0.9868 0.1619 -0.1619 0.9868 22.9904 -21.3806)" fill="#FFFFFF" width="181.309" height="31.676"/>
+	
+		<text transform="matrix(0.9868 0.1619 -0.1619 0.9868 60.7773 122.9482)" font-family="'DejaVuSerif-BoldItalic'" font-size="19.2039">Gavillet &amp; Rust</text>
+</g>
+</svg>

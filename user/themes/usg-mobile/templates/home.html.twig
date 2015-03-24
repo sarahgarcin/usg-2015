@@ -1,43 +1,11 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-	<!-- header for mobile -->
-	<header id="header" class="visible-for-small-only">
-		<div class="title-mobile" >
-			<h2>{{ site.title }}</h2>
-	    <h1>{{ page.header.year }}</h1>
-    </div>
-    <div class="menu-toggle-mobile visible-for-small-only">
-      <div></div>
-      <div></div>
-    </div>
-	</header><!-- /header -->
-	{% include 'partials/menu.html.twig' %}
-	<div class="panzoom">
-		{# include the header + navigation #}
-			<div id="dialog"></div>
-      {% include 'partials/header.html.twig' %}
-      <div class="carte-container hide-for-small-only">
-      	<div class="cartes">
-      		<img class="carte-route" src="{{ theme_url }}/images/carte-route3.png">
-    			<img class="carte-expo" src="{{ theme_url }}/images/carte-block.svg">
-      	</div>
-      	<div class="img-expo">
-      		{% for page in pages.children.visible %}
-      			{% if page.children %}
-        			{% for child in page.children.visible %}
-        				{% if child.media.images is not empty%}
-	        				<div id="{{ child.menu |replace({' ': '',}) |replace({'+': '',}) |replace({'&': '',})}}">
-	        					<a href="{{child.url}}" alt="{{child.title}}">
-		        					<h3>{{child.title}}</h3>
-		        					<img src="{{child.media["image.png"]}}">
-		        				</a>
-	        				</div>
-        				{% endif %}
-        			{% endfor %}
-        		{% endif %}
-      		{% endfor %}
-      	</div>
-    	</div>
-  	</div>
+	{% include 'partials/header.html.twig' %}
+  {% include 'partials/menu.html.twig' %}
+  <div class="content">
+    <a class="P_A" href="#" >
+      <img src="{{ theme_url }}/images/P_A.svg" alt="P_A" id="P_A"/>
+    </a>
+  </div>
 {% endblock %}

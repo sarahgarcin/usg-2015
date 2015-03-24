@@ -21,19 +21,12 @@ class TemplatePlugin extends Plugin
 		require_once __DIR__.'/Mobile_Detect.php';
 		$detect = new Mobile_Detect;
 
-		//$array = \Grav\Common\File\CompiledYamlFile::instance("/home/sarahgarcin/Sites/usg-2015/user/themes/usg/usg.yaml". YAML_EXT);
-		//print( __DIR__);
-		//print_r($array);
-
-		//$current_theme_string = "Current theme: " . $this->grav['config']->get('system.pages.theme');
-		// $this->grav['config']->get('system.pages.theme');
-
-		// $theme = $this->grav['config']->get('system.pages.theme');
-		// $mobiletheme = str_replace($theme, $theme, 'mobile');
-		//print_r( $this->grav['themes']->all());
-
-		//if($detect->isMobile()) {
-		//}
+		if($detect->isMobile()) {
+			$this->grav['config']->set('system.pages.theme', 'usg-mobile');
+		}
+		else{
+			$this->grav['config']->set('system.pages.theme', 'usg');
+		}
 
 	
 	}
