@@ -2561,7 +2561,7 @@ img {
   .img-expo #SarahBoris h3 {
     top: 200px;
     left: 350px;
-    transform: rotate(-12deg); }
+    transform: rotate(-6deg); }
 .img-expo #GavilletRust {
   top: 1980px;
   left: 3480px;
@@ -2571,7 +2571,7 @@ img {
   .img-expo #GavilletRust h3 {
     top: 0px;
     left: 0px;
-    transform: rotate(-17deg); }
+    transform: rotate(-27deg); }
 .img-expo #MichaelRiedel {
   top: 2623px;
   left: 4170px;
@@ -2581,17 +2581,17 @@ img {
   .img-expo #MichaelRiedel h3 {
     top: 190px;
     left: 130px;
-    transform: rotate(-24deg); }
-.img-expo #FanetteMellier {
-  top: 2484px;
+    transform: rotate(-10deg); }
+.img-expo #LaureLimongietFanetteMellier {
+  top: 2455px;
   left: 1982px;
   width: 200px; }
-  .img-expo #FanetteMellier img {
+  .img-expo #LaureLimongietFanetteMellier img {
     width: 100%; }
-  .img-expo #FanetteMellier h3 {
+  .img-expo #LaureLimongietFanetteMellier h3 {
     top: 30px;
     left: 0px;
-    transform: rotate(-18deg); }
+    transform: rotate(-10deg); }
 .img-expo #CollectifSuperTerrain {
   width: 320px;
   top: 2055px;
@@ -2601,7 +2601,7 @@ img {
   .img-expo #CollectifSuperTerrain h3 {
     top: 130px;
     left: 30px;
-    transform: rotate(-12deg); }
+    transform: rotate(-9deg); }
 .img-expo #FredericTacer {
   top: 1730px;
   left: 5450px;
@@ -2611,7 +2611,7 @@ img {
   .img-expo #FredericTacer h3 {
     top: 200px;
     left: 120px;
-    transform: rotate(-17deg); }
+    transform: rotate(-18deg); }
 .img-expo #AntoineManuel {
   top: 2240px;
   left: 4835px;
@@ -2621,7 +2621,7 @@ img {
   .img-expo #AntoineManuel h3 {
     top: 65px;
     left: 30px;
-    transform: rotate(-4deg); }
+    transform: rotate(7deg); }
 .img-expo #AgatheDemoisVincentGodeau {
   top: 3480px;
   left: 6170px;
@@ -2631,7 +2631,7 @@ img {
   .img-expo #AgatheDemoisVincentGodeau h3 {
     top: 190px;
     left: 55px;
-    transform: rotate(2deg); }
+    transform: rotate(3deg); }
 .img-expo #MaotikMetametric {
   top: 70px;
   left: 4350px;
@@ -2641,7 +2641,7 @@ img {
   .img-expo #MaotikMetametric h3 {
     top: 100px;
     left: -10px;
-    transform: rotate(-10deg); }
+    transform: rotate(-17deg); }
 .img-expo #Unekermessegraphique {
   top: 100px;
   left: 4540px;
@@ -2651,7 +2651,7 @@ img {
   .img-expo #Unekermessegraphique h3 {
     top: 100px;
     left: 40px;
-    transform: rotate(5deg); }
+    transform: rotate(6deg); }
 
 .img-expo div h3 {
   background-color: #FFF;
@@ -2696,8 +2696,21 @@ img {
     overflow-x: hidden;
     padding: 20px 40px; }
     .row .colonne-central h1 {
+      margin-bottom: 0.7em;
+      font-size: 2.2em;
+      font-weight: bold;
+      font-style: italic; }
+    .row .colonne-central h2 {
+      font-size: 1.5em;
+      font-style: italic;
+      text-decoration: underline; }
+    .row .colonne-central h3 {
+      font-size: 1.1em;
       text-transform: uppercase;
-      margin-bottom: 0.7em; }
+      text-decoration: underline; }
+    .row .colonne-central h4, .row .colonne-central h5 {
+      font-size: 1.1em;
+      text-transform: uppercase; }
     .row .colonne-central p {
       font-size: 1.1em; }
   .row .colonne-right {
@@ -2719,8 +2732,21 @@ img {
     overflow-y: auto;
     overflow-x: hidden; }
     .container .static-text h1 {
+      margin-bottom: 0.7em;
+      font-size: 2.2em;
+      font-weight: bold;
+      font-style: italic; }
+    .container .static-text h2 {
+      font-size: 1.5em;
+      font-style: italic;
+      text-decoration: underline; }
+    .container .static-text h3 {
+      font-size: 1.1em;
       text-transform: uppercase;
-      margin-bottom: 0.7em; }
+      text-decoration: underline; }
+    .container .static-text h4, .container .static-text h5 {
+      font-size: 1.1em;
+      text-transform: uppercase; }
     .container .static-text p {
       font-size: 1.1em; }
 

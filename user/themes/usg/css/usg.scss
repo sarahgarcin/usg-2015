@@ -285,8 +285,8 @@ img {
       transform: rotate(random(20) - 30 + deg);
     }
   }
-  #FanetteMellier{
-    top:2484px;
+  #LaureLimongietFanetteMellier {
+    top:2455px;
     left:1982px;
     width: 200px;
     img{
@@ -412,14 +412,12 @@ img {
   width: 150%;
   max-width: 150%;
   left:-25%;
-  //height: 600px;
   position: relative;
   .columns {
     padding: 0px;
   }
   .colonne-left {
     overflow: hidden;
-    //height: 600px;
     background-color: #FFF;
     position:relative;
     left:0px;
@@ -434,11 +432,26 @@ img {
   .colonne-central {
     overflow-y: auto;
     overflow-x:hidden;
-    //height: 600px;
     padding: 20px 40px;
     h1{
-      text-transform: uppercase;
       margin-bottom: 0.7em;
+      font-size: 2.2em;
+      font-weight: bold;
+      font-style: italic;
+    }
+    h2{
+      font-size: 1.5em;
+      font-style: italic;
+      text-decoration: underline;
+    }
+    h3{
+      font-size: 1.1em;
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+    h4, h5{
+      font-size: 1.1em;
+      text-transform: uppercase;
     }
     p{
       font-size: 1.1em;
@@ -467,12 +480,27 @@ img {
   overflow-x:hidden;
   .static-text{
     padding: 40px 200px;
-    //height: 600px;
     overflow-y:auto;
     overflow-x:hidden; 
     h1{
-      text-transform: uppercase;
       margin-bottom: 0.7em;
+      font-size: 2.2em;
+      font-weight: bold;
+      font-style: italic;
+    }
+    h2{
+      font-size: 1.5em;
+      font-style: italic;
+      text-decoration: underline;
+    }
+    h3{
+      font-size: 1.1em;
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+    h4, h5{
+      font-size: 1.1em;
+      text-transform: uppercase;
     } 
     p{
       font-size: 1.1em;

@@ -8,14 +8,6 @@ $(document).ready(function(){
 	var $dialog = $("#dialog");
 	var $popHeight = $(window).height() / 1.2;
 
-	// $(".panzoom").on('mousedown', function(){
-	// 	$(this).css('cursor', 'url("/user/themes/usg/images/cursorclick.png"), pointer')
-	// });
-	// $(".panzoom").on('mouseup', function(){
-	// 	$(this).css('cursor', 'url("/user/themes/usg/images/cursordrag.png"), pointer')
-	// });
-
-
 	// .-. .-. . . .-. .-. .-. .-. . . .-. 
 	// |-  | | |\| |    |   |  | | |\| `-. 
 	// '   `-' ' ` `-'  '  `-' `-' ' ` `-'                                                                                                                      
@@ -48,10 +40,8 @@ $(document).ready(function(){
         $dialog.dialog("close");
     	}
 		});
-
 	}
   
-
 	$(window).load(function(){
 		var navWidth = $('.navbar').width() - 30;
 		$('.submenu').css('left', navWidth);
@@ -130,6 +120,9 @@ $(document).ready(function(){
 	//OPEN POP UP on click on menu
 	$('.navbar-collapse .nav li a').on('click', function(e){
 		if($(this).parent().children('ul').length == 0) {
+			$('.navbar-collapse').slideToggle({
+	 			duration: 100,
+	 		});
 			OpenPopup($(this).attr('href'), $(this));
 			return false;
 		}
@@ -142,8 +135,6 @@ $(document).ready(function(){
 	//Animation on image in dialog window
 	var $dialogLeft = $('.colonne-left');
 	var $dialogRight = $('.colonne-right');
-	//$dialog.on('click',$dialogLeft, animateLeft);
-	//$dialog.on('click',$dialogRight, animateRight);
 
 	function animateLeft(event){
 		var dialogWidth = $('.ui-dialog').width();

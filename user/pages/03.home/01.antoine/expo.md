@@ -2,7 +2,7 @@
 title: Antoine + Manuel
 ---
 
-Informations pratiques :
+##Informations pratiques :
 
 Exposition du lundi 18 mai au vendredi 26 juin 2015
 Conférence : lundi 18 mai à 18h00, Maison de l'Etudiant
@@ -17,7 +17,7 @@ et le samedi de 10h à 18h.
 Visites commentées et renseignements : 02 32 74 44 08 
 bu@univ-lehavre.fr
 
-Contact : 
+###Contact : 
 Mathilde Poulain : 02 32 74 44 08, mathilde.poulain@univ-lehavre.fr
 Pierre-Yves Cachard : 02 32 74 44 33, pierre-yves.cachard@univ-lehavre.fr
 
@@ -52,9 +52,9 @@ www.a-g-i.org
 
 —
 
-Selected information
+####Selected information
 
-Solo show:
+#####Solo show:
 
 2015
 • White Night Melbourne, 21 février 2015, Victoria State Library

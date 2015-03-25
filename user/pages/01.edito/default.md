@@ -1,7 +1,7 @@
 ---
 title: Édito
 ---
-Une Saison Graphique 15, un état des lieux
+##Une Saison Graphique 15, un état des lieux
 
 La 7e édition de cet événement se déroule du 18 mai au 27 juin 2015, avec en point d'orgue la semaine traditionnelle des vernissages du 18 au 23 mai, qui s'achèvera le samedi 23 mai par un parcours de l'ensemble des expositions, le temps fort de la Kermesse Graphique et de la soirée du Tetris au Fort de Tourneville. Du 15 mai au 18 juin seront également présentées dans l'espace urbain les sept affiches programme conçues par nos invités.
 Interroger les formes, questionner les modes de re/présentation du design graphique dans l'espace, produire des images et des projets graphiques qui témoignent du processus tout autant que du résultat, contaminer le regard, offrir des espaces et un temps de parole à une profession contrainte de se réinventer sous la pression du numérique et de la raréfaction de la commande publique et privée, faire naître ou diffuser la culture du design graphique au sein de nos territoires (réel et virtuel), proposer chaque année au public différentes approches, des univers distincts, souvent disjoints, pour que le design graphique soit à nouveau visible et lisible dans l'espace urbain le temps d'une Saison, et plus si affinités. Voici quelques uns de nos objectifs partagés, qui, nous l'espérons, se liront en creux du programme proposé pour cette édition 2015.

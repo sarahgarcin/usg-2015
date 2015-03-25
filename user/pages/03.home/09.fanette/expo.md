@@ -1,4 +1,4 @@
 ---
-title: Fanette Mellier
+title: Laure Limongi et Fanette Mellier
 ---
 
