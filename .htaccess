@@ -55,3 +55,4 @@ RewriteRule ^(system|user|vendor)/(.*)\.(txt|md|html|yaml|php|twig|sh|bat)$ erro
 Options -Indexes
 # End - Prevent Browsing
 
+SetEnv PHP_VER 5_4
