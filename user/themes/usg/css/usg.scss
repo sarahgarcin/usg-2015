@@ -395,7 +395,6 @@ img {
 .ui-dialog {
   background-color: #FFF;
   overflow:hidden; 
-  //height: 600px !important;
   z-index: 99;
   outline: none;
   .container {
@@ -436,7 +435,7 @@ img {
     h1{
       margin-bottom: 0.7em;
       font-size: 2.2em;
-      font-weight: bold;
+      font-weight: 700;
       font-style: italic;
     }
     h2{
@@ -455,6 +454,12 @@ img {
     }
     p{
       font-size: 1.1em;
+    }
+    a{
+      font-weight: 700;
+      &:hover{
+        text-decoration: underline;
+      }
     }
   }
   .colonne-right {
@@ -485,7 +490,7 @@ img {
     h1{
       margin-bottom: 0.7em;
       font-size: 2.2em;
-      font-weight: bold;
+      font-weight: 700;
       font-style: italic;
     }
     h2{
@@ -504,6 +509,12 @@ img {
     } 
     p{
       font-size: 1.1em;
+    }
+    a{
+      font-weight: 700;
+      &:hover{
+        text-decoration: underline;
+      }
     }
   }
 } 
