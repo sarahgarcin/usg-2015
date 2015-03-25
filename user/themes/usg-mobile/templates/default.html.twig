@@ -3,9 +3,12 @@
 {% block content %}
 {% include 'partials/header.html.twig' %}
 {% include 'partials/menu.html.twig' %}
+
+<div class="wrapper-text">
 	<div class="static-text">
 			<h1><span>{{ page.title }}</span></h1>
 			{{ page.content }}	
 	</div>
+</div>
     
 {% endblock %}

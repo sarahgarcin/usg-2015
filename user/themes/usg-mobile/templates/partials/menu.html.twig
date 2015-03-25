@@ -1,17 +1,19 @@
 <nav class="navbar" role="navigation">       
     <ul class="sommaire">
       {% for page in pages.children.visible %}
-        {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
-        <li class="{{ page.title }}">
-          <a href="{{ page.url }}">{{ page.menu }}</a>
+        <li class="{{ page.title|lower}}">
+          <a href="{{ page.url }}">
+            <span class="element-menu">{{ page.menu }}</span>
+            </a>
           {% if page.children is not empty %}
             <ul class="submenu">
             {% for child in page.children %}
-                  <li class="{{ current_page }} {{child.title |replace({' ': '',}) |replace({'&': '',}) |replace({'&': '',})}}">
-                    <a href="{{ child.url }}">
-                    {% if child.media.images is not empty%}
+                  <li class="{{child.title|lower|replace({' ': '','-':'','ü':'u'})|replace({'&': '',})|replace({'&': '',})}}">
+                    <a href="{{ child.url |replace({'conference': 'home',})}}">
+                    {% if child.media["cover.png"] is not empty%}
                       <img src="{{child.media["cover.png"]}}">
                     {% endif %}
+                    <span class="title-sub">{{ child.menu }}</span>
                     </a>
                   </li>
             {% endfor %}
