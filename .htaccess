@@ -1,3 +1,9 @@
+#Password protected page
+#AuthUserFile /.htpasswd
+#AuthType Basic
+#AuthName "Version test du site Une Saison Graphique"
+#Require valid-user
+
 <IfModule mod_rewrite.c>
 
 RewriteEngine On
@@ -55,4 +61,5 @@ RewriteRule ^(system|user|vendor)/(.*)\.(txt|md|html|yaml|php|twig|sh|bat)$ erro
 Options -Indexes
 # End - Prevent Browsing
 
+#Set PHP5 for OVH
 SetEnv PHP_VER 5_4

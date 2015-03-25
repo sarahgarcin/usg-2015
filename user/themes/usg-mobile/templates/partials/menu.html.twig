@@ -10,8 +10,8 @@
             {% for child in page.children %}
                   <li class="{{child.title|lower|replace({' ': '','-':'','ü':'u'})|replace({'&': '',})|replace({'&': '',})}}">
                     <a href="{{ child.url |replace({'conference': 'home',})}}">
-                    {% if child.media["cover.png"] is not empty%}
-                      <img src="{{child.media["cover.png"]}}">
+                    {% if child.media["bouton-mobile.png"] is not empty%}
+                      <img src="{{child.media["bouton-mobile.png"]}}">
                     {% endif %}
                     <span class="title-sub">{{ child.menu }}</span>
                     </a>
