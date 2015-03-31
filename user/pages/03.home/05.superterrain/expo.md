@@ -1,13 +1,24 @@
 ---
 title: Collectif Super Terrain
 ---
-Exposition du 19 mai au 27 juin 2015
-Galerie dexposition  Maison de létudiant
-50 rue Jean-Jacques Rousseau, 76600 Le Havre
-Renseignement : service.culturel@univ-lehavre.fr  02.32.74.42.84
-Exposition ouverte du lundi au vendredi, de 9h à 19h
+
+##Informations pratiques :
+
+Exposition du 19 mai au 27 juin 2015  
+Conférence le 19 mai à 17h30, Maison de l'Etudiant  
+Vernissage le 19 mai à 19H00, Maison de l'Etudiant
+
+
+Galerie d'exposition Maison de l'étudiant  
+50 rue Jean-Jacques Rousseau, 76600 Le Havre  
+Exposition ouverte du lundi au vendredi, de 9h à 19h  
 Ouverture exceptionnelle samedi 23 mai de 10h à 17h
 
+###Contact : 
+
+Maison de l'Etudiant:  
+[service.culturel@univ-lehavre.fr](mailto:service.culturel@univ-lehavre.fr)  
+Tel: 02.32.74.42.84
 
 Super Terrain ce sont 3 jeunes graphistes indépendants : Quentin Bodin, Luc de Fouquet et
 Lucas Meyer. Après avoir été formé à lÉcole européenne supérieure d'art de Bretagne
@@ -59,6 +70,5 @@ graphiques réalisées pendant cette résidence.
 Une proposition du service culturel de luniversité
 du Havre.
 
-www.superterrain.fr
-
-www.facebook.com/superterrain
+[www.superterrain.fr](http://www.superterrain.fr)  
+[www.facebook.com/superterrain](http://www.facebook.com/superterrain)

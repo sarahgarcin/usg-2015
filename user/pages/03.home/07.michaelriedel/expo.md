@@ -1,9 +1,21 @@
 ---
 title: Michael Riedel
 ---
-La Consigne - Gare du Havre - Esplanade de la Gare
-Présentation en vitrine du 18 mai au 27 juin
 
+##Informations pratiques :
+
+Exposition du 18 mai au 27 juin 2015  
+Vernissage le 22 mai à 17h00, La Consigne  
+
+La Consigne - Gare du Havre:  
+Esplanade de la Gare
+
+###Contact : 
+
+La Consigne  
+Tel: 06 69 33 94 13  
+Site: [laconsigne.unblog.fr/](http://laconsigne.unblog.fr/)  
+ 
 Nouveau partenaire dUne Saison Graphique, le FRAC interroge le graphisme depuis lart
 contemporain par lexposition à La Consigne, où une série d'affiches de l'artiste allemand
 Michael Riedel, sera exposée.
@@ -18,16 +30,7 @@ réalisées par l'artiste et met en scène la dialectique design graphique
  art contemporain à travers des supports graphiques exposés, aux
 intentions de lartiste en tant que auto-commanditaire.
 
-Loeuvre Printed and Unprinted Posters 2003-2008 se compose de
-42 affiches (90, 2 x 64,5 cm) et dune carte postale (10,8 x 15,2 cm).
-Ces posters et carte postale sont une étape ou un état transitoire
-d'une réflexion que Michael Riedel développe sur son oeuvre depuis
-2003. Ils interrogent la circulation et la mutation des oeuvres qui est à
-la fois due à la réflexion de l'artiste sur son propre travail et au
-discours qui est tenu par des critiques. Les affiches et les cartes
-postales ne doivent pas obligatoirement être montrées toutes
-ensemble, il est possible de faire une sélection qui participe elle aussi à
-l'interprétation et aux mouvements de loeuvre.
+Loeuvre Printed and Unprinted Posters 2003-2008 se compose de 42 affiches (90, 2 x 64,5 cm) et dune carte postale (10,8 x 15,2 cm). Ces posters et carte postale sont une étape ou un état transitoire d'une réflexion que Michael Riedel développe sur son oeuvre depuis 2003. Ils interrogent la circulation et la mutation des oeuvres qui est à la fois due à la réflexion de l'artiste sur son propre travail et au discours qui est tenu par des critiques. Les affiches et les cartes postales ne doivent pas obligatoirement être montrées toutes ensemble, il est possible de faire une sélection qui participe elle aussi à l'interprétation et aux mouvements de loeuvre.
 
 « Printed and Unprinted Posters 2003-2008 a été conçue à partir des
 affiches que l'artiste a réalisées pour documenter l'ensemble de ses
@@ -39,7 +42,7 @@ deux tomes). Printed and Unprinted Posters 2003-2008 a été présentée au Schi
 Francfort en 2012 et reproduit dans le catalogue Künste zur Texte. » (Communiqué de presse de
 la galerie Michel Rein pour l'exposition personnelle de Michal Riedel à Bruxelles , décembre 2013
  février 2014, consulté en juillet 2014 à cette adresse :
-http://michelrein.com/en/artistes/expositions/42/Michael%20Riedel. (Traduction Agnès Werly)
+[michelrein.com/en/artistes/expositions/42/Michael%20Riedel.](http://michelrein.com/en/artistes/expositions/42/Michael%20Riedel.)(Traduction Agnès Werly)
 
 Les posters réalisés par Michael Riedel après chaque exposition sont eux même le fruit d'un
 processus de circulation et de transposition : « Souvent, en guise de carton d'invitation [aux]

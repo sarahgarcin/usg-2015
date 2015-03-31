@@ -2,11 +2,11 @@
 title: Venir au Havre
 ---
 
-En train :
+**En train** :
 
 La Gare du Havre est desservie par les grandes lignes de la SNCF (trains Corail et TGV), depuis Paris et Lyon.
 
-Par la route :
+**Par la route** :
 
 Depuis lest (Rouen, Paris)
 LA13 relie directement Paris au Havre (via Rouen), sinon vous pouvez prendre la N14 jusquà
@@ -20,7 +20,7 @@ Depuis le nord (Lille)
 Prendre la direction dAmiens. À Amiens, vous pouvez choisir de prendre lA29 qui arrive
 directement au Havre ou la N29 (Neufchâtel-en-Bray, Yvetot, Le Havre).
 
-Se déplacer au Havre
+**Se déplacer au Havre**
 
 Le Tramway vous permettra de vous rendre dans la presque totalité des lieux dexposition,
 même si un parcours à pieds est toujours le moyen le plus simple et agréable pour suivre
@@ -30,20 +30,26 @@ utilisant le bus, par les lignes 5 et 6 (depuis la Gare) ou les lignes 1 et 4 (d
 arrêt Cronstadt.
 Un réseau de pistes cyclables vous permettra de vous rendre rapidement à vélo dans les lieux dexposition.
 
-Se loger au Havre : 
+**Se loger au Havre** : 
 
 Office de Tourisme de l'Agglomération Havraise
 186 boulevard Clemenceau - BP 649 - 76059 Le Havre Cedex
 Tél : 02 32 74 04 04 - Fax : 02 35 42 38 39
-contact@lehavretourisme.com
+[contact@lehavretourisme.com](mailto:contact@lehavretourisme.com)
 
-Hôtels :http://www.lehavretourisme.com/fr/hebergements-et-restauration/hotels.html
-Gîtes et chambres d'hôtes : http://www.lehavretourisme.com/fr/hebergements-et-restauration/gites-chambres-hotes-meubles.html
+**Hôtels:**
+
+[www.lehavretourisme.com/fr/hebergements-et-restauration/hotels.html
+](http://www.lehavretourisme.com/fr/hebergements-et-restauration/hotels.html
+)
+
+**Gîtes et chambres d'hôtes :** 
+
+[www.lehavretourisme.com/fr/hebergements-et-restauration/gites-chambres-hotes-meubles.html](http://www.lehavretourisme.com/fr/hebergements-et-restauration/gites-chambres-hotes-meubles.html)
 
 
 
-Centres d'hébergement et gîtes de groupes : 
-
+**Centres d'hébergement et gîtes de groupes :**
 
 Gîte de la Porte Océane
 Centre d'hébergement à la nuitée pour jeunes individuels ou groupes
@@ -55,18 +61,18 @@ Etablissement labellisé Gîte de France - 2 épis
 
 Tél. 1 : 02 76 84 10 00
 Fax : 02 35 54 30 42 
-E-mail : association@sansdetour-lh.fr 
-Site internet : www.sansdetour-lh.fr www.facebook.com/gite.oceane?fref=ts 
+
+E-mail:[association@sansdetour-lh.fr](mailto:association@sansdetour-lh.fr)  
+Site internet : [www.sansdetour-lh.fr](http://www.sansdetour-lh.fr)
+[www.facebook.com/gite.oceane?fref=ts](http://www.facebook.com/gite.oceane?fref=ts)
  
+#Come to Le Havre :
 
-
-Come to Le Havre :
-
-By train :
+**By train :**
 
 Le Havre Railstation is served by the main lines of the SNCF ( Corail and TGV trains) from Paris and Lyon.
 
-By road:
+**By road:**
 
 From the east (Rouen, Paris)
 The A13 directly connects Paris to Le Havre (via Rouen) , otherwise you can take the N14 up
@@ -79,7 +85,7 @@ From the North (Lille)
 Take the direction of Amiens. In Amiens , you can choose to take the A29 happens
 Havre directly or N29 ( Neufchâtel-en-Bray , Yvetot, Le Havre).
 
-Move in Le Havre
+**Move in Le Havre**
 
 With Tramway, you will go to almost all the exhibition spaces,
 even if a foot path is always the most simple and enjoyable way to track
@@ -94,18 +100,19 @@ Kronstadt stop.
 
 Le Havre is also a "bike friendly" city : a network of bicycle paths will allow you to quickly go cycling in the area of ??exhibitions.
  
-
-
 Accommodation in Le Havre : 
 Tourist Office of the Agglomeration Havraise
 186 boulevard Clemenceau - BP 649 - 76059 Le Havre Cedex
 Phone : +332 32 74 04 04 - Fax : +332 35 42 38 39
-contact@lehavretourisme.com
+[contact@lehavretourisme.com](mailto:contact@lehavretourisme.com)
 
-Hotels :http://www.lehavretourisme.com/fr/hebergements-et-restauration/hotels.html
-Bed and Breakfast : http://www.lehavretourisme.com/fr/hebergements-et-restauration/gites-chambres-hotes-meubles.html
+**Hotels :** [www.lehavretourisme.com/fr/hebergements-et-restauration/hotels.html](http://www.lehavretourisme.com/fr/hebergements-et-restauration/hotels.html)
 
-Shelters and group gites : 
+**Bed and Breakfast :** [www.lehavretourisme.com/fr/hebergements-et-restauration/gites-chambres-hotes-meubles.html
+](http://www.lehavretourisme.com/fr/hebergements-et-restauration/gites-chambres-hotes-meubles.html
+)
+
+**Shelters and group gites :** 
 
 Gîte de la Porte Océane
 Shelter at night for individual young people or groups
@@ -117,5 +124,7 @@ Establishment labeled Cottage France - 2 ears
 
 Tél. 1 : 02 76 84 10 00
 Fax : 02 35 54 30 42 
-E-mail : association@sansdetour-lh.fr 
-Site internet : www.sansdetour-lh.fr www.facebook.com/gite.oceane?fref=ts 
+E-mail : [association@sansdetour-lh.fr](mailto:association@sansdetour-lh.fr) 
+
+Site internet :[www.sansdetour-lh.fr](http://www.sansdetour-lh.fr) 
+[www.facebook.com/gite.oceane?fref=ts](htt://www.facebook.com/gite.oceane?fref=ts)

@@ -1,23 +1,50 @@
 ---
 title: Agathe Demois & Vincent Godeau
 ---
+##Informations pratiques :
 
-Médiathèque Leopold Sédar Senghor
-67 rue Gustave Brindeau  Le Havre
-Horaires : mardi, jeudi et vendredi de 14h à 18h /
-mercredi et samedi de 10h à 13h et de 14h à 18h.
-Extraits de lexposition et ateliers dans les
-médiathèques :
-? Caucriauville, 40 rue Jules Vallès  Le Havre
-? Martin Luther King, 115/119 rue Théophile
-Gauthier  Le Havre
-Informations sur lireauhavre.fr et par téléphone
-au 02 35 13 99 27
+Exposition du Mercredi 20 mai au 26 juin 2015 Médiathèque Leopold Sédar Senghor  
+Vernissage : Mercredi 20 mai à 16H30 à la Médiathèque Leopold Sédar Senghor   
+Extraits de l'exposition et ateliers dans les Médiathèques de Caucriauville, et Martin Luther King 
+
+Médiathèque Leopold Sédar Senghor  
+67 rue Gustave Brindeau ,Le Havre  
+Horaires : mardi, jeudi et vendredi de 14h à 18h /  
+mercredi et samedi de 10h à 13h et de 14h à 18h.  
+Informations sur [lireauhavre.fr](http://lireauhavre.fr) 
+
+Médiathèque de Caucriauville  
+40 rue Jules Vallès ,Le Havre.  
+Horaire : mardi, jeudi, vendredi de 13h30 à 18h  
+Mercredi de 10h à 12h et de 13h30 à 18h  
+Samedi de 10h à 12h et de 13h30 à 17h  
+Informations sur [lireauhavre.fr](http://lireauhavre.fr) 
+
+Médithèque Martin Luther King  
+115/119 rue Théophile Gauthier ,Le Havre.  
+Horaire: Mardi, Jeudi, Vendredi : 14h à 18h
+Mercredi, Samedi : 10h à 12h30 et de 14h à 18h  
+Informations sur [lireauhavre.fr](http://lireauhavre.fr) 
+
+###Contact : 
+
+Médiathèque Leopold Sédar Senghor   
+Tèl:02 35 13 99 27  
+[biblio-senghor@lehavre.fr](mailto:biblio-senghor@lehavre.fr)
+
+Médiathèque de Caucriauville:  
+Tèl:02 35 47 12 35  
+[biblio-caucriauville@lehavre.fr](mailto:biblio-caucriauville@lehavre.fr)
+
+Médithèque Martin Luther King:  
+Tél: 02 77 61 30 00  
+[biblio-mlk@lehavre.fr](mailto:biblio-mlk@lehavre.fr) 
 
 
-Depuis plusieurs année au sein du collectif des partenaires dUne Saison Graphique, le réseau
+
+Depuis plusieurs années au sein du collectif des partenaires dUne Saison Graphique, le réseau
 Lire au Havre invite des graphistes / illustrateurs qui sintéressent à la création graphique
-contemporaine pour la jeunesse. Pour lédition 2015, les invités du réseau Lire au Havre, sont
+contemporaine pour la jeunesse. Pour l'édition 2015, les invités du réseau Lire au Havre, sont
 Agathe Demois et Vincent Godeau pour lexposition « Sens dessus-dessous ».
 
 Cest autour de l'album "La grande traversée" (éditions du Seuil,
@@ -48,7 +75,7 @@ Strasbourg, Bayard Presse). Au travers de ses illustrations
 et de son graphisme, elle aime manier les motifs et les
 couleurs vives, pour mettre en scène un monde ludique
 et poétique.
-www.agathedemois.fr/
+[www.agathedemois.fr/](http://www.agathedemois.fr)
 
 Vincent Godeau est né en 1986. Il a
 étudié le graphisme aux Arts Décoratifs à Strasbourg, où
@@ -58,6 +85,6 @@ Dans le monde de Vincent Godeau, les maisons sont gonflables, les arbres à mote
 en purée de pomme de terre. Illustrateur et artiste, son univers ludique et coloré prend la forme de
 livres, de films danimation mais aussi dobjets ou dinstallations. Son premier livre pop-up «Avec
 quelques briques» est sorti en 2014 aux éditions LAgrume.
-www.vincentgodeau.fr
+[www.vincentgodeau.fr](http://www.vincentgodeau.fr)
 
 

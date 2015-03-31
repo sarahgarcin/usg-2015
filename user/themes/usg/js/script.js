@@ -18,7 +18,7 @@ $(document).ready(function(){
     	position: { my: "right-150 center-20", at: "right-150 center-20", of: window },
     	modal: true,
     	height: $popHeight,
-    	width: $(window).width() / 1.7,    
+    	width: $(window).width() / 1.7,  
 	 	});
 	 	$dialog.load($link + " .container", function(){
 		 	$('.panzoom .ui-dialog').css("height", $popHeight);
@@ -28,8 +28,8 @@ $(document).ready(function(){
 			$('.panzoom .ui-dialog .colonne-right').css("height", $popHeight);
 			$('.panzoom .ui-dialog .static-text').css("height", $popHeight);
 
-			$('.colonne-left').hover(animateLeft);
-			$('.colonne-right').hover(animateRight);
+			$('.colonne-left').on('click', animateLeft);
+			$('.colonne-right').on('click',animateRight);
 	 	});
 		$dialog.dialog('open');
 
@@ -78,9 +78,7 @@ $(document).ready(function(){
 
 			//OPEN POP UP
 			$link = $("#" + element + " a").attr('href');
-			$('.navbar-collapse').slideToggle({
-	 			duration: 100,
-	 		});
+			$('.navbar-collapse.active').removeClass('active');
 			setTimeout(
 			  function() 
 			  {
@@ -89,9 +87,7 @@ $(document).ready(function(){
 			  }, 1000);
 		}
 		else {
-			$('.navbar-collapse').slideToggle({
-	 			duration: 100,
-	 		});
+			$('.navbar-collapse.active').addClass('active');
 			$url = $(this).attr('href');
 			OpenPopup($url);
 			return false;
@@ -120,9 +116,7 @@ $(document).ready(function(){
 	//OPEN POP UP on click on menu
 	$('.navbar-collapse .nav li a').on('click', function(e){
 		if($(this).parent().children('ul').length == 0) {
-			$('.navbar-collapse').slideToggle({
-	 			duration: 100,
-	 		});
+			$('.navbar-collapse.active').removeClass('active');
 			OpenPopup($(this).attr('href'), $(this));
 			return false;
 		}
@@ -183,26 +177,20 @@ $(document).ready(function(){
 	//  |  |__| |__| |__] |___ |___    |  | |___ | \| |__|   
 
 	var $ToogleMenu = $(".menu-toggle");
-	var $ToogleMobile = $(".menu-toggle-mobile");
 	var $ElementClass = $(".navbar-collapse").attr("class");
 	var $ElementToggle = $(".navbar-collapse");
 
-	$ElementToggle.addClass('active');
-
-	 $ToogleMenu.click(function(){
-	 	$ElementToggle.slideToggle({
-	 		duration: 700,
-	 	});
+	$ToogleMenu.on('click', function(){
+		if($ElementToggle.hasClass("active")){
+				$ElementToggle.removeClass('active');
+		}
+		else{
+			$ElementToggle.addClass('active');
+		}
+	});
 
 	 	var widthMenu = $(".navbar").width();
 	 	$('.submenu').css("left", widthMenu-30);
-	});
-
-	$ToogleMobile.click(function(){
-	 	$ElementToggle.slideToggle({
-	 		duration: 700,
-	 	});
-	});
 
 	// .-. .-. .-. 
 	// |   `-. `-. 
@@ -231,5 +219,8 @@ $(document).ready(function(){
 		$('.title h1').css('font-size', h1Size);
 		$('.title h3').css('font-size', h3Size);
 	});
+
+	//DEBUG JP GRUNFELD
+	$("#Jean-PierreGrünfeld").remove();
 
 });

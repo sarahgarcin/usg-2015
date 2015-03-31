@@ -4,24 +4,27 @@ title: Antoine + Manuel
 
 ##Informations pratiques :
 
-Exposition du lundi 18 mai au vendredi 26 juin 2015
-Conférence : lundi 18 mai à 18h00, Maison de l'Etudiant
-Vernissage : lundi 18 mai à 19h30, Bibliothèque Universitaire
+Exposition du lundi 18 mai au vendredi 26 juin 2015  
+Conférence le lundi 18 mai à 18h00, Maison de l'Étudiant  
+Vernissage le lundi 18 mai à 19h30, Bibliothèque Universitaire
 
 
-Bibliothèque universitaire du Havre
-25, rue Philippe Lebon – Le Havre
-Entrée libre du lundi au vendredi de 8h30 à 19h 
+Bibliothèque universitaire du Havre  
+25, rue Philippe Lebon – Le Havre  
+Entrée libre du lundi au vendredi de 8h30 à 19h   
 et le samedi de 10h à 18h.
 
-Visites commentées et renseignements : 02 32 74 44 08 
-bu@univ-lehavre.fr
+Visites commentées et renseignements :  
+02 32 74 44 08 
+[bu@univ-lehavre.fr](mailto:bu@univ-lehavre.fr)
 
 ###Contact : 
-Mathilde Poulain : 02 32 74 44 08, mathilde.poulain@univ-lehavre.fr
-Pierre-Yves Cachard : 02 32 74 44 33, pierre-yves.cachard@univ-lehavre.fr
+Mathilde Poulain : 02 32 74 44 08, [mathilde.poulain@univ-lehavre.fr](mailto:mathilde.poulain@univ-lehavre.fr)  
+Pierre-Yves Cachard : 02 32 74 44 33, [pierre-yves.cachard@univ-lehavre.fr](mailto:pierre-yves.cachard@univ-lehavre.fr)
 
-
+Maison de l'Etudiant:  
+[service.culturel@univ-lehavre.fr](mailto:service.culturel@univ-lehavre.fr)  
+Tel: 02.32.74.42.84
 
 Antoine Audiau et Manuel Warosz
 Antoine+Manuel
@@ -46,9 +49,9 @@ Ils sont membres de l'Alliance graphique internationale depuis 2012.
 
 Pour Une Saison Graphique 15, Antoine+Manuel s’installent dans l’atrium Bibliothèque Universitaire Centrale et son architecture spectaculaire.
 
-antoineetmanuel.com
-www.facebook.com/antoineetmanuel
-www.a-g-i.org
+[antoineetmanuel.com](http://antoineetmanuel.com)  
+[www.facebook.com/antoineetmanuel](http://facebook.com/antoineetmanuel)  
+[www.a-g-i.org](http://a-g-i.org)
 
 —
 
@@ -58,7 +61,7 @@ www.a-g-i.org
 
 2015
 • White Night Melbourne, 21 février 2015, Victoria State Library
-• #UneSaisonGraphique15, 18 mai – 27 juin 2015, Le Havre, Bibliothèque universitaire
+• [#UneSaisonGraphique15](https://www.google.fr/search?q=%23UneSaisonGraphique15&oq=%23UneSaisonGraphique15&aqs=chrome..69i57.2549j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=%23UneSaisonGraphique15&start=10), 18 mai – 27 juin 2015, Le Havre, Bibliothèque universitaire
 
 2014
 • "Les Fils du Calvaire",  Centre d'art la Chapelle des Calvairiennes, Mayenne, 24 mai- 6 juillet 2014.
@@ -125,8 +128,8 @@ Furniture
 
 2009
 Cabinet Tout va bien, BD Barcelona Design
-http://www.bdbarcelona.com/en/designers/antoine_et_manuel.php
-http://www.bdbarcelona.com/en/products/storage/cabinet_tout_va_bien.php
+[http://www.bdbarcelona.com/en/designers/antoine_et_manuel.php](http://www.bdbarcelona.com/en/designers/antoine_et_manuel.php)
+[http://www.bdbarcelona.com/en/products/storage/cabinet_tout_va_bien.php](http://www.bdbarcelona.com/en/products/storage/cabinet_tout_va_bien.php)
 
 —
 Workshop

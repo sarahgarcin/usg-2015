@@ -2,21 +2,37 @@
 title: Sarah Boris
 ---
 
-Carré du Théâtre de lHôtel de Ville
-Esplanade Jacques Tournant
+##Informations pratiques :
 
-Exposition du 19 mai au 13 juin 2015
-Vernissage le 23 mai 2015 à 11h30
-Conférence le 4 juin 2015 à 18h, La
-Galerne
 
-Mardi au samedi de 12h45 à 18h30 -
-Mercredi matin de 9h30 à 11h30 -
+
+Exposition du mardi 19 mai au 26 juin 2015  
+Vernissage le 23 mai 2015 à 15H00, Carré du Théâtre de l'Hôtel de Ville  
+Conférence le 4 juin 2015 à 18h, La Galerne
+
+Carré du Théâtre de l'Hôtel de Ville  
+Esplanade Jacques Tournant  
+Mardi au samedi de 12h45 à 18h30   
+Mercredi matin de 9h30 à 11h30   
 Dimanches 24 mai et 7 juin de 14h15 à
-17h15.
-Entrée libre
-Renseignements : 02 35 19 45 74 
-saison-thv@lehavre.fr
+17h15.  
+Entrée libre 
+
+La Galerne  
+148 Rue Victor Hugo, 76600 Havre (Le)  
+Horaire: du lundi au samedi: 10h00 à 19h00
+
+
+###Contact : 
+
+Carré du THV :   
+Tel: 02 35 19 45 74  
+[saison-thv@lehavre.fr](mailto:saison-thv@lehavre.fr)
+
+La Galerne:  
+Tel: 02 35 43 22 52  
+[www.lagalerne.com/](http://www.lagalerne.com/)
+
 
 Invitée du Carré du Théâtre de LHôtel de Ville, Sarah Boris, graphiste franco-suisse établie à
 Londres depuis septembre 2003 proposera de mettre en scène un studio graphique.
@@ -54,5 +70,5 @@ elle les multiples facettes de la commande graphique.
 Une Saison Graphique 15 30
 
 Nhésitez-pas à transmettre vos questions, idées de commandes début avril 2015 à :
-info@sarahboris.com, avec la mention : Théâtre graphique - Sarah Boris - USG 2015.
-sarahboris.com
+[info@sarahboris.com](mailto:info@sarahboris.com), avec la mention : Théâtre graphique - Sarah Boris - USG 2015.
+[sarahboris.com](http://sarahboris.com)

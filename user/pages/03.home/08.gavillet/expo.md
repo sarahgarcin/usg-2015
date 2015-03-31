@@ -1,18 +1,35 @@
 ---
 title: Gavillet & Rust
 ---
-*Le Portique  
-30, rue Gabriel Péri  
-Entrée libre du mercredi au samedi, de 15h à 19h  
-Réservation préalable pour les visites et ateliers de groupe*
 
-##Renseignements :
- 
-info@leportique.org  
-Tél. : +33 (0)2 35 45 53 64 
-Entrée libre  
+##Informations pratiques :
+
+Exposition du 22 mai au 26 juin 2015  
+Vernissage le vendredi 22 mai à 19h, Le Portique  
+Conférence le Vendredi 22 mai à 15H30, à la Maison de l'étudiant  
+
+Le Portique  
+30, rue Gabriel Péri, 76600 le Havre  
+Entrée libre du mercredi au samedi, de 15h à 19h  
+Réservation préalable pour les visites et ateliers de groupe.  
 Ouverture du mercredi au samedi  
 de 15 h à 18 h 30.  
+Entrée libre  
+
+La Maison de l'étudiant  
+50 rue Jean-Jacques Rousseau, 76600 Le Havre  
+
+
+###Contact : 
+
+Maison de l'Etudiant:  
+[service.culturel@univ-lehavre.fr](mailto:service.culturel@univ-lehavre.fr)  
+Tel: 02.32.74.42.84
+
+Le Portique  
+[info@leportique.org](mailto:info@leportique.org)  
+Tél. : +33 (0)2 35 45 53 64 
+ 
 
 
 Le studio de design graphique genevois, Gavillet & Rust, intervient, à la fois, dans
@@ -46,6 +63,7 @@ innovatrice.
 
 Croisant différents champs, le Studio présentera au Portique un ensemble de ses réalisations. Un nouveau
 regard porté sur des projets qui, des livres aux marques, ne connaissent pas de limites. Seul impératif : la
-transmission du message par le truchement dune typographie originale et renouvelée.
-gavillet-rust.com
+transmission du message par le truchement dune typographie originale et renouvelée.  
+
+[gavillet-rust.com](http://gavillet-rust.com)
 

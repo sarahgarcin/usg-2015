@@ -1,4 +1,4 @@
 ---
-title: Conférence
+title: Conférences
 ---
 

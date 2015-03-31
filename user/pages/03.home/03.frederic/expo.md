@@ -1,14 +1,34 @@
 ---
 title: Frederic Tacer
 ---
+
+##Informations pratiques :
+
+Exposition du jeudi 21 mai au vendredi 26 juin 2015  
+Conférence le jeudi 21 mai 2015 à 17:30, Maison de l'Étudiant  
+Vernissage le jeudi 21 mai 2015 à 19:00,
 Galerie 65, École Supérieure dArt et Design Le
 Havre-Rouen
-65 rue Demidoff, 76600 Le Havre
-Lundi - samedi, de 14h à 18h
-Renseignements : 02 35 53 30 31
-Conférence : jeudi 21 juin 2015 à 17:30
-Vernissage : jeudi 21 juin 2015 à 19:00
 
+
+École Supérieure dArt et Design Le
+Havre-Rouen  
+65 rue Demidoff, 76600 Le Havre
+Lundi au samedi, de 14h à 18h
+
+La Maison de l'etudiant  
+50 rue Jean-Jacques Rousseau, 76600 Le Havre
+
+###Contact : 
+
+École Supérieure dArt et Design Le
+Havre-Rouen  
+Tel: 02 35 53 30 31  
+[http://www.esadhar.fr/](http://www.esadhar.fr/)
+
+Maison de l'Etudiant:  
+[service.culturel@univ-lehavre.fr](mailto:service.culturel@univ-lehavre.fr)  
+Tel: 02.32.74.42.84
 
 Passez le seuil de la galerie 65 et vous serez téléporté en 2084. Frédéric Tacer a choisi de nous
 faire voyager dans le temps, avec et parmi les livres du
@@ -45,7 +65,8 @@ réinvente, se réinventera.
 
 A travers cette exposition réflexive, au croisement de ses deux domaines de prédilection, le livre
 et la Science fiction, Frédéric Tacer pensera la matière livre avec la complicité de latelier de
-sérigraphie de lESADHaR, les étudiants de lESADHaR et certains de Sciences Politiques.
-http://frederictacer.net
-http://graphismeauhavre.tumblr.com/post/104257733171/fred
+sérigraphie de lESADHaR, les étudiants de lESADHaR et certains de Sciences Politiques.  
+
+[frederictacer.net](http://frederictacer.net)  
+[graphismeauhavre.tumblr.com/post/104257733171/fred](http://graphismeauhavre.tumblr.com/post/104257733171/fred)
 
