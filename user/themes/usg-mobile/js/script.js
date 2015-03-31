@@ -41,12 +41,13 @@ $(document).ready(function(){
 		else{
 			$(".sommaire li .submenu").removeClass("open");
 			$submenu.addClass("open");
+			//css remove padding above expo .open
+			//$('.navbar .sommaire li.expositions').css("padding", "17px 0px 0px 0px");
 		}
 	});
 
-	$(".conférence").on("click", function(){
-			console.log($(".jeanpierregrunteld"))
-			$(".jeanpierregrunteld a").attr('href','/conference/jeanpierre');
+	$(".conférences").on("click", function(){
+		$(".jeanpierregrunfeld a").attr('href','/conference/jeanpierre');
 	});
 
 
@@ -76,6 +77,8 @@ $(document).ready(function(){
 		}
 	}
 
+	//remove fanette mellier from expo
+	$(".laurelimongietfanettemellier").remove();
 
 
 

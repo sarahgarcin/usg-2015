@@ -11,7 +11,7 @@ $(document).ready(function(){
 	// .-. .-. . . .-. .-. .-. .-. . . .-. 
 	// |-  | | |\| |    |   |  | | |\| `-. 
 	// '   `-' ' ` `-'  '  `-' `-' ' ` `-'                                                                                                                      
-	function OpenPopup($link, $this, e) {
+	function OpenPopup($link) {
 		$dialog.dialog({
     	autoOpen: false,
     	appendTo: ".panzoom",
@@ -27,6 +27,10 @@ $(document).ready(function(){
 			$('.panzoom .ui-dialog .colonne-central').css("height", $popHeight);
 			$('.panzoom .ui-dialog .colonne-right').css("height", $popHeight);
 			$('.panzoom .ui-dialog .static-text').css("height", $popHeight);
+
+			$('.panzoom .ui-dialog .row').on('click', function (){
+				
+			});
 
 			$('.colonne-left').on('click', animateLeft);
 			$('.colonne-right').on('click',animateRight);
@@ -82,7 +86,7 @@ $(document).ready(function(){
 			setTimeout(
 			  function() 
 			  {
-			    OpenPopup($link, $elementObj);
+			    OpenPopup($link);
 					return false;
 			  }, 1000);
 		}
@@ -109,7 +113,7 @@ $(document).ready(function(){
 	//OPEN POP UP on click on image 
 	var $imageExpo = $('.img-expo div a');
 	$imageExpo.on('click touchstart', function(){
-			OpenPopup($(this).attr('href'), $(this));
+			OpenPopup($(this).attr('href'));
 			return false;
 	});
 
@@ -117,7 +121,7 @@ $(document).ready(function(){
 	$('.navbar-collapse .nav li a').on('click', function(e){
 		if($(this).parent().children('ul').length == 0) {
 			$('.navbar-collapse.active').removeClass('active');
-			OpenPopup($(this).attr('href'), $(this));
+			OpenPopup($(this).attr('href'));
 			return false;
 		}
 		else {
