@@ -575,13 +575,14 @@
     matrixArray[4]    = this.cssX;
     matrixArray[5]    = this.cssY;
 
-    this.translation  = this.arrayToMatrix( matrixArray );
-    this.transform(this.translation);
-    // this.translate = "translate3d("+x+",0,0)";
-    // //console.log(this.cssX + "-" + this.cssY);
-    // console.log("translate3d("+x+","+y+",0)");
-    // //this.transform("translate3d("+x+","+y+",0)");
-    // //this.transform(this.translation);
+    // this.translation  = this.arrayToMatrix( matrixArray );
+    // this.transform(this.translation);
+
+    //Modifications personnelles - remplace matrix par translate3d, plus fluide sur tablette
+    var translateX = this.cssX + "px";
+    var translateY = this.cssY + "px";
+    this.translate = "translate3d("+translateX+"," + translateY+",0)";
+    this.transform(this.translate);
   }
 
   Pep.prototype.transform = function(value) {

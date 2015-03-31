@@ -35,7 +35,7 @@ $(document).ready(function(){
 
 
 		//Close Pop when click outside
-		$('.panzoom').mousedown(function (e){
+		$('.panzoom').on('mousedown touchstart', function (e){
     	if (!$dialog.is(e.target) && $dialog.has(e.target).length === 0){
         $dialog.dialog("close");
     	}
