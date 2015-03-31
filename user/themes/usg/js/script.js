@@ -14,23 +14,19 @@ $(document).ready(function(){
 	function OpenPopup($link) {
 		$dialog.dialog({
     	autoOpen: false,
-    	appendTo: ".panzoom",
+    	appendTo: ".container",
     	position: { my: "right-150 center-20", at: "right-150 center-20", of: window },
     	modal: true,
     	height: $popHeight,
     	width: $(window).width() / 1.7,  
 	 	});
 	 	$dialog.load($link + " .container", function(){
-		 	$('.panzoom .ui-dialog').css("height", $popHeight);
-			$('.panzoom .ui-dialog .row').css("height", $popHeight);
-			$('.panzoom .ui-dialog .colonne-left').css("height", $popHeight);
-			$('.panzoom .ui-dialog .colonne-central').css("height", $popHeight);
-			$('.panzoom .ui-dialog .colonne-right').css("height", $popHeight);
-			$('.panzoom .ui-dialog .static-text').css("height", $popHeight);
-
-			$('.panzoom .ui-dialog .row').on('click', function (){
-				
-			});
+		 	$('.container .ui-dialog').css("height", $popHeight);
+			$('.container .ui-dialog .row').css("height", $popHeight);
+			$('.container .ui-dialog .colonne-left').css("height", $popHeight);
+			$('.container .ui-dialog .colonne-central').css("height", $popHeight);
+			$('.container .ui-dialog .colonne-right').css("height", $popHeight);
+			$('.container .ui-dialog .static-text').css("height", $popHeight);
 
 			$('.colonne-left').on('click', animateLeft);
 			$('.colonne-right').on('click',animateRight);
@@ -39,17 +35,12 @@ $(document).ready(function(){
 
 
 		//Close Pop when click outside
-		$('.panzoom').on('click tap', function (e){
+		$('.panzoom').mousedown(function (e){
     	if (!$dialog.is(e.target) && $dialog.has(e.target).length === 0){
         $dialog.dialog("close");
     	}
 		});
-	}
-  
-	$(window).load(function(){
-		var navWidth = $('.navbar').width() - 30;
-		$('.submenu').css('left', navWidth);
-	});	                              
+	}                              
 	                             
 	//     ___      ___      ___    
 	//   //   ) ) //___) ) //    ) ) 
@@ -59,7 +50,7 @@ $(document).ready(function(){
 	$('.panzoom').pep({
 		useCSSTranslation: true, 
 		hardwareAccelerate: true, 
-		shouldEase: false
+		shouldEase: false,
 	});
 
 
@@ -83,12 +74,10 @@ $(document).ready(function(){
 			//OPEN POP UP
 			$link = $("#" + element + " a").attr('href');
 			$('.navbar-collapse.active').removeClass('active');
-			setTimeout(
-			  function() 
-			  {
-			    OpenPopup($link);
-					return false;
-			  }, 1000);
+			setTimeout(function(){
+			  OpenPopup($link);
+				return false;
+			}, 1000);
 		}
 		else {
 			$('.navbar-collapse.active').addClass('active');
@@ -193,8 +182,14 @@ $(document).ready(function(){
 		}
 	});
 
-	 	var widthMenu = $(".navbar").width();
-	 	$('.submenu').css("left", widthMenu-30);
+	//Position du submenu
+	var widthMenu = $(".navbar").width();
+	$('.submenu').css("left", widthMenu-30);
+
+	$(window).load(function(){
+		var navWidth = $('.navbar').width() - 30;
+		$('.submenu').css('left', navWidth);
+	});	
 
 	// .-. .-. .-. 
 	// |   `-. `-. 

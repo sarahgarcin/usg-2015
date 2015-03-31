@@ -1,5 +1,5 @@
 @import "../bower_components/foundation/scss/normalize.scss";
-// @import "../bower_components/foundation/scss/foundation.scss";
+
 @import "../bower_components/foundation/scss/foundation/components/global";
 @import "../bower_components/foundation/scss/foundation/components/type";
 @import "../bower_components/foundation/scss/foundation/components/clearing";
@@ -527,6 +527,11 @@ img {
 //MEDIA QUERIES
 //TABLET Version
 @media #{$medium-only} { 
+  .panzoom {
+    top:-1038px !important;
+    left:-3500px !important;
+    position: absolute;
+  }
   .navbar{
     .home{
       width:45px;
@@ -564,6 +569,23 @@ img {
     position: relative;
     top:320px;
     left:910px;
+  }
+  .row{
+    .colonne-central{
+      h1{
+        font-size: 1.7em;
+      }
+      h2{
+        font-size: 1.1em;
+      }
+      h3{
+        font-size: 0.9em;
+      }
+      p{
+        font-size: 0.8em;
+        line-height: 1.4em;
+      }
+    }
   }
 }
 

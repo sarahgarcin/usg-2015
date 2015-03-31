@@ -570,14 +570,19 @@
     this.cssX = this.cssX + x;
     this.cssY = this.cssY + y;
 
-    this.log({ type: 'delta', x: x, y: y });
+    //this.log({ type: 'delta', x: x, y: y });
 
     matrixArray[4]    = this.cssX;
     matrixArray[5]    = this.cssY;
 
     this.translation  = this.arrayToMatrix( matrixArray );
-    this.transform( this.translation );
-  };
+    this.transform(this.translation);
+    // this.translate = "translate3d("+x+",0,0)";
+    // //console.log(this.cssX + "-" + this.cssY);
+    // console.log("translate3d("+x+","+y+",0)");
+    // //this.transform("translate3d("+x+","+y+",0)");
+    // //this.transform(this.translation);
+  }
 
   Pep.prototype.transform = function(value) {
     this.$el.css({
