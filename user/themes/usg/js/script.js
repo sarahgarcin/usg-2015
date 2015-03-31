@@ -7,6 +7,7 @@ $(document).ready(function(){
 	                        
 	var $dialog = $("#dialog");
 	var $popHeight = $(window).height() / 1.2;
+	$(".panzoom").css({"top" : "-1038px", "left" : "-3500px"});
 
 	// .-. .-. . . .-. .-. .-. .-. . . .-. 
 	// |-  | | |\| |    |   |  | | |\| `-. 
@@ -67,8 +68,8 @@ $(document).ready(function(){
 			var top = relativeY + $elementObj.height() /2 ;
 			var left = relativeX + $elementObj.width() /2 ;
 			$(".panzoom").animate({ 
-				top: top, 
-				left: left 
+				top: top,
+				left: left
 			});
 
 			//OPEN POP UP

@@ -525,11 +525,12 @@ img {
 }
 
 //MEDIA QUERIES
+
 //TABLET Version
 @media #{$medium-only} { 
   .panzoom {
-    top:-1038px !important;
-    left:-3500px !important;
+    top:-1038px;
+    left:-3500px;
     position: absolute;
   }
   .title .logo{
