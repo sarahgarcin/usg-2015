@@ -100,4 +100,19 @@ La Galerne, 148 rue Victor Hugo - Le Havre
 Site web : [lagalerne.com](http://lagalerne.com)
 
 
-![usg](Logo SG15.jpg)
+![usg](LogoSG15.jpg)
+
+![usg](logo_etape.png)
+
+![usg](logo_lehavre.png)
+
+![usg](logo_seine_maritime.png)
+
+![usg](Logo-ministere-culture.png) 
+ 
+![usg](GF_noir01.png)
+
+![usg](logoGaH.jpg)
+
+
+

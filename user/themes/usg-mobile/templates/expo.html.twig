@@ -10,7 +10,7 @@
 			</div>
 			<div class="colonne-right">
 				<div class="inner-content">
-					{% for pictures in page.media.images|slice(length, length - 2) %}
+					{% for pictures in page.media.images|slice(length, length - 4) %}
 						{% set picture = pictures %}
 						<li>
 							<img src="{{ picture.url }}" alt="{{ page.slug }}" />

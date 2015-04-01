@@ -78,7 +78,7 @@ $(document).ready(function(){
 	}
 
 	//remove fanette mellier from expo
-	$(".laurelimongietfanettemellier").remove();
+	$(".expositions .laurelimongietfanettemellier").remove();
 
 
 
