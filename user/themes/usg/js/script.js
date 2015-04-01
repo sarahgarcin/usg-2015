@@ -207,8 +207,8 @@ $(document).ready(function(){
 
 	jQuery.fn.center = function (){
     this.css("position","absolute");
-    this.css("top", (($(window).height() / 2) + ($('.carte-route').height() / 4.2)) - (this.outerHeight() / 2));
-    this.css("left", (($(window).width() / 2) + ($('.carte-route').width() / 1.9)) - (this.outerWidth() / 2));
+    this.css("top", (($(window).height() / 2) + ($('.carte-route').height() / 4.15)) - (this.outerHeight() / 2));
+    this.css("left", (($(window).width() / 2) + ($('.carte-route').width() / 1.919)) - (this.outerWidth() / 2));
     return this;
 	}
 
