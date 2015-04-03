@@ -12,8 +12,10 @@
 
 /* Constrain the width */
 .container {
+  overflow: hidden;
   width: auto;
   padding: 0 15px;
+  height:100%;
 }
 
 /* Center the footer text */
@@ -408,6 +410,7 @@ img {
   max-width: 150%;
   left:-25%;
   position: relative;
+  overflow: hidden;
   .columns {
     padding: 0px;
   }
@@ -477,8 +480,6 @@ img {
 }
 
 .container {
-  overflow: auto;
-  overflow-x:hidden;
   .static-text{
     padding: 40px 200px;
     overflow-y:auto;
@@ -511,6 +512,9 @@ img {
       &:hover{
         text-decoration: underline;
       }
+    }
+    img{
+      max-width: 100%;
     }
   }
 } 

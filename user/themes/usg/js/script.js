@@ -7,7 +7,6 @@ $(document).ready(function(){
 	                        
 	var $dialog = $("#dialog");
 	var $popHeight = $(window).height() / 1.2;
-	$(".panzoom").css({"top" : "-1038px", "left" : "-3500px"});
 
 	// .-. .-. . . .-. .-. .-. .-. . . .-. 
 	// |-  | | |\| |    |   |  | | |\| `-. 
@@ -222,5 +221,7 @@ $(document).ready(function(){
 
 	//DEBUG JP GRUNFELD
 	$("#Jean-PierreGrünfeld").remove();
+
+	$(".panzoom").css({"top" : "-1038px", "left" : "-3500px"});
 
 });
