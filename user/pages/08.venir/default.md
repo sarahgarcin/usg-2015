@@ -8,27 +8,26 @@ La Gare du Havre est desservie par les grandes lignes de la SNCF (trains Corail 
 
 **Par la route** :
 
-Depuis lest (Rouen, Paris)
-LA13 relie directement Paris au Havre (via Rouen), sinon vous pouvez prendre la N14 jusquà
+Depuis l'est (Rouen, Paris)
+L'A13 relie directement Paris au Havre (via Rouen), sinon vous pouvez prendre la N14 jusqu'à
 Rouen puis la N15 qui arrive au Havre.
 
-Depuis louest (Rennes, Nantes)
-Suivre la direction de Caen (A84) puis du Havre (A29). Après le passage du pont de
-Normandie, le centre-ville nest plus quà 10 minutes de route.
+Depuis l'ouest (Rennes, Nantes)
+Suivre la direction de Caen (A84) puis du Havre ('ie, le centre-ville n'est plus qu'à 10 minutes de route.
 
 Depuis le nord (Lille)
-Prendre la direction dAmiens. À Amiens, vous pouvez choisir de prendre lA29 qui arrive
+Prendre la direction d'Amiens. À Amiens, vous pouvez choisir de prendre l'A29 qui arrive
 directement au Havre ou la N29 (Neufchâtel-en-Bray, Yvetot, Le Havre).
 
 **Se déplacer au Havre**
 
-Le Tramway vous permettra de vous rendre dans la presque totalité des lieux dexposition,
+Le Tramway vous permettra de vous rendre dans la presque totalité des lieux d'exposition,
 même si un parcours à pieds est toujours le moyen le plus simple et agréable pour suivre
 le parcours proposé. La majorité des expositions est localisée entre le quartier de la Gare et
-celui de lHôtel de Ville. Le fort de Tourneville est accessible à pieds, par le funiculaire ou en
-utilisant le bus, par les lignes 5 et 6 (depuis la Gare) ou les lignes 1 et 4 (depuis lHôtel de Ville),
+celui de l'Hôtel de Ville. Le fort de Tourneville est accessible à pieds, par le funiculaire ou en
+utilisant le bus, par les lignes 5 et 6 (depuis la Gare) ou les lignes 1 et 4 (depuis l'Hôtel de Ville),
 arrêt Cronstadt.
-Un réseau de pistes cyclables vous permettra de vous rendre rapidement à vélo dans les lieux dexposition.
+Un réseau de pistes cyclables vous permettra de vous rendre rapidement à vélo dans les lieux d'exposition.
 
 **Se loger au Havre** : 
 

@@ -1,5 +1,5 @@
 ---
-title: Crédit
+title: Crédits
 ---
 
 **Une Saison Graphique est une manifestation annuelle consacrée à la création graphique
@@ -8,9 +8,9 @@ culturels de la ville.**
 
 Une saison graphique bénéficie du soutien de : l’Université du Havre, la Ville du Havre, le
 Conseil Général de Seine-Maritime, le Conseil Régional de Haute-Normandie et du Ministère de
-Culture et de Communication. (logos)
+Culture et de Communication.
 
-Partenariats : Etapes, Kiblind, Graphisme en France (logos)
+Partenariats : Etapes, Kiblind, Graphisme en France
 
 **Organisateurs et partenaires**
 

@@ -22,15 +22,13 @@ La Maison de l'étudiant
 
 ###Contact : 
 
-Maison de l'Etudiant:  
-[service.culturel@univ-lehavre.fr](mailto:service.culturel@univ-lehavre.fr)  
-Tel: 02.32.74.42.84
-
 Le Portique  
 [info@leportique.org](mailto:info@leportique.org)  
 Tél. : +33 (0)2 35 45 53 64 
  
-
+Maison de l'Etudiant:  
+[service.culturel@univ-lehavre.fr](mailto:service.culturel@univ-lehavre.fr)  
+Tel: 02.32.74.42.84
 
 Le studio de design graphique genevois, Gavillet & Rust, intervient, à la fois, dans
 le champ culturel et dans le domaine commercial.

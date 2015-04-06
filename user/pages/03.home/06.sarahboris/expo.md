@@ -6,7 +6,7 @@ title: Sarah Boris
 
 
 
-Exposition du mardi 19 mai au 26 juin 2015  
+Exposition du mardi 19 mai au 13 juin 2015  
 Vernissage le 23 mai 2015 à 15H00, Carré du Théâtre de l'Hôtel de Ville  
 Conférence le 4 juin 2015 à 18h, La Galerne
 

@@ -194,13 +194,13 @@ $(document).ready(function(){
 	// .-. .-. .-. 
 	// |   `-. `-. 
 	// `-' `-' `-' 
-	var h2Size = $(window).width() / 300 + "em";
-	var h1Size = $(window).width() / 120 + "em";
+	var h1Size = $(window).width() / 300 + "em";
+	var h2Size = $(window).width() / 120 + "em";
 	var h3Size = $(window).width() / 550 + "em";
 
-	$('.title h2').css('font-size', h2Size);
-	$('.title h1').css({
-		'font-size': h1Size
+	$('.title h1').css('font-size', h1Size);
+	$('.title h2').css({
+		'font-size': h2Size
 	});
 	$('.title h3').css('font-size', h3Size);
 
@@ -214,8 +214,8 @@ $(document).ready(function(){
 	$('.title').center();
 	$(window).resize(function(){
 	  $('.title').center();
-	  $('.title h2').css('font-size', h2Size);
-		$('.title h1').css('font-size', h1Size);
+	  $('.title h1').css('font-size', h1Size);
+		$('.title h2').css('font-size', h2Size);
 		$('.title h3').css('font-size', h3Size);
 	});
 
